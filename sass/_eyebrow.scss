@@ -1,0 +1,152 @@
+@import "colors";
+
+$gray1-c: #e4382c;
+$gray2-c: #b2b2b2;
+$gray3-c: #333;
+$gray4-c: #666;
+
+
+/******** Global Nav ********/
+.global-nav {
+  padding-top: 9px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 22px;
+
+      a {
+        font-family: 'Kievit-Book', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: $black-color;
+        text-decoration: none;
+      }
+      .search-btn {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 32px;
+        height: 23px;
+        background: url(../imgs/icon-search.png) no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      &.active a {
+        font-family: 'Kievit-Medium', sans-serif;
+        font-weight: 500;
+        color: $gray1-c;
+        border-top: solid 2px;
+        padding-top: 8px;
+      }
+    }
+  }
+
+}
+
+/******** Main Banner Selector ********/
+.main-banner-selector {
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 22px;
+      width: 120px;
+      border-top: solid 2px;
+      color: $gray2-c;
+
+      a {
+        font-family: 'Kievit-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $gray2-c;
+        width: 70px;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 13px;
+        letter-spacing: 0.015em;
+      }
+
+      &.active,
+      &.active a {
+        color: $black-color;
+      }
+
+    }
+  }
+}
+
+/******** Blog Quote ********/
+.blog-quote {
+  h1 {
+    font-family: 'MiloSlab-LightItalic', serif;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 100%;
+    margin: 0 0 0.4em;
+    font-size: 36px;
+  }
+  hr {
+    border: 0;
+    margin: 0 0 1.4em;
+    background: $black-color;
+    height: 2px;
+    width: 66px;
+  }
+}
+
+
+/******** Mega Nav & Sub Menu ********/
+.mega-nav,
+.sub-menu {
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight: 500;
+  width: 134px; // ?
+
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 8px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+    border-top: solid 2px;
+    display: block;
+    // width: 134px;
+    padding-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+
+.mega-nav {
+  color: $gray3-c;
+  ul li a {
+    color: $gray3-c;
+  }
+}
+
+.sub-menu {
+  color: $black-color;
+  text-align: right;
+  ul li a {
+    color: $black-color;
+  }
+  .title {
+    border-color: $gray4-c;
+  }
+}

@@ -1,0 +1,202 @@
+@import "colors";
+
+/******** Typography - Milo Sections ********/
+.blog--title,
+.blog--quote {
+  width: 433px; // ???????
+  // margin-bottom: 100px;
+  -webkit-font-feature-settings: "lnum" 1; /* No variation */
+  font-feature-settings: "lnum" 1; /* No variation */
+}
+
+.body--text-milo {
+  width: 433px; // ???????
+  -webkit-font-feature-settings: "lnum" 1; /* No variation */
+  font-feature-settings: "lnum" 1; /* No variation */
+}
+
+.blog--listing,
+.banner {
+  width: 326px; // ???????
+  // margin-bottom: 100px;
+  -webkit-font-feature-settings: "lnum" 1; /* No variation */
+  font-feature-settings: "lnum" 1; /* No variation */
+}
+
+.maganav {
+  width: 326px; // ???????
+  -webkit-font-feature-settings: "lnum" 1; /* No variation */
+  font-feature-settings: "lnum" 1; /* No variation */
+}
+
+aside.milo {
+  width: 472px; // ???????
+  -webkit-font-feature-settings: "lnum" 1; /* No variation */
+  font-feature-settings: "lnum" 1; /* No variation */
+}
+
+
+/******** Font System / Content ********/
+
+.font-system-content h1 {
+  font-size: 41px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.28em;
+  width: 408px;
+  display: inline-block;
+}
+
+/******** Blog Title ********/
+.blog--title {
+  h1 {
+    font-family: 'MiloSlab-Light', serif;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 100%;
+    margin: 0 0 0.4em;
+  }
+  .tagline {
+    font-family: 'Kievit-Light', sans-serif;
+    font-size: 18px;
+    line-height: 24.28px;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+    margin: 0;
+    span {
+      font-family: 'Kievit-Book', sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  .date {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    margin: 0;
+  }
+}
+
+
+
+/******** Blog Quote ********/
+.blog--quote {
+  h1 {
+    font-family: 'MiloSlab-LightItalic', serif;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 100%;
+    margin: 0 0 0.4em;
+    font-size: 36px;
+  }
+
+  hr {
+    border: 0;
+    margin: 0 0 1.4em;
+    background: $black-color;
+    height: 2px;
+    width: 66px;
+  }
+}
+
+
+
+/******** Body Text ********/
+.body-text-milo {
+  p {
+    font-family: 'MiloSlab-Regular', serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-indent: 72px;
+    line-height: 28px;
+    a.publication {
+      font-family: 'MiloSlab-RegularItalic', serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+}
+
+
+
+/******** Blog Listing ********/
+.blog--listing {
+  h1 {
+    font-family: 'MiloSlab-Light', serif;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0 0 0.4em;
+  }
+  p {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+
+/******** Banner ********/
+.banner {
+  h1 {
+    font-family: 'MiloSlab-Light', serif;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0 0 0.6em;
+    span {
+      display: block;
+    }
+  }
+
+  .date {
+    font-family: 'Kievit-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .loc {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    margin: 0;
+  }
+}
+
+
+/******** Maganav ********/
+.maganav {
+  width: 292px; // ??????
+
+  h1 {
+    font-family: 'MiloSlab-Light', serif;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 0 0 0.8em;
+  }
+  .category {
+    font-family: 'Kievit-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: block;
+  }
+  p {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,54 @@
+@import "base";
+
+// @import "reset";
+@import "buttons";
+@import "colors";
+@import "fonts";
+@import "icons";
+@import "images";
+@import "mixins";
+@import "variables";
+
+@import "eyebrow";
+@import "kievit";
+@import "milo";
+
+
+/******** Dropdown / Input Field ********/
+.styled select {
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  border: 0;
+  height: 34px;
+  width: 214px;
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight: 400;
+  color: $gray-color;
+}
+
+.styled {
+  outline: none;
+  height: 34px;
+  width: 198px;
+  border: 2px solid $gray-color;
+  @include border-radius(3px);
+  overflow: hidden;
+  background: url(../imgs/dropdown.png) 95% / 20% no-repeat transparent;
+  background-size: 6px 4px;
+  // margin-bottom: 34px; // ?????
+  padding: 0 4px;
+}
+
+input[type="text"] {
+  outline: none;
+  height: 34px;
+  width: 198px;
+  border: 2px solid $gray-color;
+  @include border-radius(3px);
+  font-family: 'Kievit-BookItalic', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: $gray-color;
+  padding: 1px 10px 0px;
+}

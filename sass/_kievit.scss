@@ -1,0 +1,171 @@
+@import "colors";
+
+/******** Typography - Kievit ********/
+
+.medium-listing,
+.small-listing {
+  width: 279px; // ????
+}
+.body-text-kievit {
+  width: 279px; // ????
+}
+
+/******** Font System / UI ********/
+.font-system-ui h1 {
+  font-size: 41px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.28em;
+  width: 408px; // ????
+  display: inline-block;
+}
+
+/******** Global Nav ********/
+.global-nav {
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 22px;
+      a {
+        font-family: 'Kievit-Book', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: $black-color;
+        text-decoration: none;
+      }
+      #search {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 32px;
+        height: 23px;
+        background: url(../imgs/icon-search.png) no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+/******** Medium & Small Listings ********/
+.medium-listing,
+.small-listing {
+  h1, h2 {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  .date {
+    font-family: 'Kievit-Medium', sans-serif;
+    font-size: 13px;
+    line-height: 16.21px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin: 0 0 0.6em;
+    text-transform: uppercase;
+  }
+}
+
+.medium-listing {
+  h1 {
+    font-size: 26px;
+    line-height: 28px;
+    margin: 0 0 0.4em;
+    > span {
+      display: block;
+    }
+  }
+}
+
+.small-listing h2 {
+  font-size: 20px;
+  line-height: 100%;
+  margin: 0 0 0.6em;
+}
+
+.medium-listing .loc {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20.41px;
+}
+
+
+/******** Body Text ********/
+.body-text-kievit {
+  p {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+
+  em {
+    font-family: 'Kievit-BookItalic', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+/******** Podcast ********/
+.podcast {
+  h1 {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.4em;
+  }
+
+  .tagline {
+    font-family: 'Kievit-Medium', sans-serif;
+    font-size: 12px;
+    line-height: 16.21px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin: 0 0 0.6em;
+    text-transform: uppercase;
+    color: $primary-color;
+    padding-left: 22px;
+    background: url(../imgs/icon-podcast.png) no-repeat;
+  }
+}
+
+
+/******** Lookup ********/
+.lookup {
+  img.thumb {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    @include border-radius(24px);
+    margin-right: 15px;
+  }
+  > div {
+    display: inline-block;
+    vertical-align: middle;
+    .name {
+      font-family: 'Kievit-Medium', sans-serif;
+      font-weight: 500;
+      margin: 0 0 2px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    .title {
+      font-family: 'Kievit-Book', sans-serif;
+      font-weight: 400;
+      margin: 0;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

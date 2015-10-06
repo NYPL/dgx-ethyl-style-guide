@@ -1,0 +1,37 @@
+@import "colors";
+
+.img-circle--span {
+  display: inline-block;
+  vertical-align: middle;
+  color: $black-color;
+  font-family: "Kievit-Medium", sans-serif;
+  font-size: 12px;
+  margin-left: 18px;
+}
+
+.sm-circle,
+.med-circle,
+.content-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.med-circle {
+  width: 88px;
+  height: 88px;
+  @include border-radius(44px);
+  &+span {
+    @extend .img-circle--span;
+  }
+}
+
+.sm-circle {
+  width: 44px;
+  height: 44px;
+  @include border-radius(22px);
+  &+span {
+    @extend .img-circle--span;
+  }
+}
+
+

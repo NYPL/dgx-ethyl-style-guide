@@ -1,0 +1,45 @@
+@import "variables";
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+@import "compass/typography/text/ellipsis";
+@import "compass/utilities/general/float";
+@import "compass/layout";
+
+* {
+  @include box-sizing();
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper,
+.row,
+.clearfix {
+  @include clearfix;
+}
+
+
+// Floats
+//
+// .pull-right - Float Right.
+// .pull-left - Float Left.
+//
+// markup:
+// <div class="styleguide-grid-unit {$modifiers}">{$modifiers}</div>
+//
+// Styleguide 3.0
+
+.pull-right { @include float-right; }
+.pull-left { @include float-left; }
+
+@for $i from 1 through $grid-columns {
+  .column-#{$i} {
+    width: 100% / $grid-columns * $i;
+    @include float-left;
+  }
+}

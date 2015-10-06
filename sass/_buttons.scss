@@ -1,0 +1,212 @@
+/******** Call to Action, Inputs ********/
+@import "colors";
+@import "variables";
+
+/******** Buttons Styles ********/
+
+// Buttons
+//
+// Styleguide 2.0
+
+// Button
+//
+// .btn - Default button.
+// .btn-hover - Button hover class.
+// :disabled - Button disabled.
+// .btn-header - Button Header.
+// .btn-inverse - Button Inverse.
+// .btn-hover.btn-inverse -  Button hover & inverse class.
+//
+// markup:
+// <button class="btn {$modifiers}">Button</button>
+//
+// Styleguide 2.1
+
+.btn {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: $blue-color;
+  padding: 13px 12px 11px;
+  border: solid 2px $blue-color;
+  @include border-radius(3px);
+  background: transparent;
+  cursor: pointer;
+  outline: 0;
+
+  &:hover,
+  &.btn-hover {
+    color: $white-color;
+    background: $blue-color;
+  }
+
+  &:disabled,
+  &:disabled:hover {
+    color: $light-blue-color;
+    border-color: $light-blue-color;
+    background: transparent;
+  }
+}
+
+/******** Button Styles Inverse ********/
+.btn-inverse {
+  color: $white-color;
+  border-color: $white-color;
+
+  &:hover,
+  &.btn-hover {
+    color: $blue-color;
+    background: $white-color;
+  }
+}
+
+/******** Large Icon ********/
+.btn-large {
+  width: 72px;
+  height: 72px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn-play {
+  background:url(../imgs/buttons-circle.png) no-repeat transparent;
+  background-position: 0 0;
+}
+
+.btn-search {
+  background: url(../imgs/buttons-circle.png) no-repeat transparent;
+  background-position: -144px 0;
+}
+
+/******** Large Icon Inverse ********/
+.btn-play__inverse {
+  background: url(../imgs/buttons-circle.png) no-repeat transparent;
+  background-position: -72px 0;
+}
+.btn-search__inverse {
+  background: url(../imgs/buttons-circle.png) no-repeat transparent;
+  background-position: -216px 0;
+}
+
+.vid-bg,
+.search-bg {
+  width: 270px;
+  height: 214px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  // margin-bottom: 114px; // ?????
+}
+
+
+.vid-bg .btn-play__inverse,
+.search-bg .btn-search__inverse {
+  // position: absolute; // ?????
+  position: relative;
+}
+
+
+.vid-bg {
+  background: url(../imgs/placeholder-vid_bg.jpg) no-repeat;
+  margin-right: 23px; // ?????
+
+  .btn-play__inverse {
+    top: 50%;
+    left: 50%;
+    margin-top: -36px; // ?????
+    margin-left: -36px; // ?????
+  }
+}
+
+
+.search-bg {
+  background: url(../imgs/placeholder-search_bg.jpg) no-repeat;
+
+  .btn-search__inverse {
+    top: 50%;
+    left: 50%;
+    margin-top: -36px; // ?????
+    margin-left: 18px; // ?????
+  }
+}
+
+/******** Header Button ********/
+.btn-header {
+  color: $white-color;
+  border: 0;
+  @include border-radius(3px);
+  background: #e4382c;
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 11px 20px 9px;
+  cursor: pointer;
+}
+
+/******** Nav ********/
+.btn__prev,
+.btn__next {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn__prev {
+  background: url(../imgs/buttons-nav.png) no-repeat transparent;
+  background-position: 0 0;
+}
+.btn__next {
+  background: url(../imgs/buttons-nav.png) no-repeat transparent;
+  background-position: -28px 0;
+}
+.nav-buttons .btn__prev,
+.nav-buttons .btn__next {
+  margin-right: 11px;
+}
+
+
+/******** More Buttons ********/
+.btn-more {
+  border: solid 2px $gray-color;
+  @include border-radius(13px);
+  height: 26px;
+  min-width: 26px;
+  background: url(../imgs/ellipsis.png) no-repeat transparent;
+  font-family: 'Kievit-Medium', sans-serif;
+  font-weight: 500;
+  color: $gray-color;
+  font-size: 11px;
+  text-transform: uppercase;
+  outline: none;
+
+  &.more-sm {
+    background-position: center center;
+    background-size: 50%;
+  }
+  &.more-lg {
+    background-position: 12px center;
+    padding: 5px 12px 3px 34px;
+    height: 32px;
+    @include border-radius(16px);
+  }
+}
+
+.buttons-more {
+  > div {
+    display: inline-block;
+  }
+  .btn-more {
+    // display: block;
+    // margin-bottom: 23px; // ???
+  }
+}

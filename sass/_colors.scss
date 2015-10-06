@@ -1,0 +1,165 @@
+/******** Color Palettes ********/
+
+// Colors and typography
+//
+// This section describes base colors and typography
+//
+// Styleguide 1.0
+
+// Main colors
+//
+// $primary-color - primary color.
+// $browse-dark-color - browse color.
+// $browse-color - browse color.
+// $donate-dark-color - donate color.
+// $donate-color - donate color.
+// $highlight-dark-color - highlight color.
+// $highlight-color - highlight color.
+// $coolgray-dark-color - coolgray color.
+// $coolgray-color - coolgray color.
+// $findus-dark-color - findus color.
+// $findus-color - findus color.
+// $gethelp-dark-color - gethelp color.
+// $gethelp-color - gethelp color.
+// $gray-color - gray color.
+// $black-color - black color.
+// $white-color - white color.
+// $attend-dark-color - attend color.
+// $attend-color - attend color.
+// $learn-dark-color - learn color.
+// $learn-color - learn color.
+// $research-dark-color - research color.
+// $research-color - research color.
+// $search-dark-color - search color.
+// $search-color - search color.
+// $blue-color - blue color.
+// $light-blue-color - light color.
+// $footer-color - footer color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.1
+
+$primary-color: #ed1c24;
+$browse-dark-color: #BB1D12;
+$browse-color: #E73621;
+$donate-dark-color: #9E0B0B;
+$donate-color: #CF1D1E;
+$highlight-dark-color: #FEE24A;
+$highlight-color: #FFF0A1;
+$coolgray-dark-color: #837E77;
+$coolgray-color: #A3A19E;
+$findus-dark-color: #595141;
+$findus-color: #726958;
+$gethelp-dark-color: #655C4C;
+$gethelp-color: #89806F;
+$gray-color: #a59d8e;
+$black-color: #000000;
+$white-color: #FFFFFF;
+$attend-dark-color: #52174F;
+$attend-color: #72256D;
+$learn-dark-color: #437529;
+$learn-color: #579B34;
+$research-dark-color: #047074;
+$research-color: #00989E;
+$search-dark-color: #0089BC;
+$search-color: #1DA1D4;
+$blue-color: #2799c5;
+$light-blue-color: #93cce2;
+$footer-color: #54514A;
+
+
+
+// Text Color Classes
+//
+// text-primary - text-primary.
+// browse-text-dark - browse-text-dark.
+// text-browse - text-browse.
+// highlight-text-dark - highlight-text-dark.
+// text-highlight - text-highlight.
+// coolgray-text-dark - coolgray-text-dark.
+// text-coolgray - text-coolgray.
+// findus-text-dark - findus-text-dark.
+// text-findus - text-findus.
+// gethelp-text-dark - gethelp-text-dark.
+// text-gethelp - text-gethelp.
+// attend-text-dark - attend-text-dark.
+// text-attend - text-attend.
+// learn-text-dark - learn-text-dark.
+// text-learn - text-learn.
+// research-text-dark - research-text-dark.
+// text-research - text-research.
+// donate-text-dark - donate-text-dark.
+// text-donate - text-donate.
+// search-text-dark - search-text-dark.
+// text-search - text-search.
+//
+// markup:
+// <div class="{$modifiers}">{$modifiers}</div>
+//
+// Styleguide 1.2
+
+.text-primary {
+  color: $primary-color;
+}
+.browse-text-dark {
+  color: $browse-dark-color;
+}
+.text-browse {
+  color: $browse-color;
+}
+.highlight-text-dark {
+  color: $highlight-dark-color;
+}
+.text-highlight {
+  color: $highlight-color;
+}
+.coolgray-text-dark {
+  color: $coolgray-dark-color;
+}
+.text-coolgray {
+  color: $coolgray-color;
+}
+.findus-text-dark {
+  color: $findus-dark-color;
+}
+.text-findus {
+  color: $findus-color;
+}
+.gethelp-text-dark {
+  color: $gethelp-dark-color;
+}
+.text-gethelp {
+  color: $gethelp-color;
+}
+.attend-text-dark {
+  color: $attend-dark-color;
+}
+.text-attend {
+  color: $attend-color;
+}
+.learn-text-dark {
+  color: $learn-dark-color;
+}
+.text-learn {
+  color: $learn-color;
+}
+.research-text-dark {
+  color: $research-dark-color;
+}
+.text-research {
+  color: $research-color;
+}
+.donate-text-dark {
+  color: $donate-dark-color;
+}
+.text-donate {
+  color: $donate-color;
+}
+.search-text-dark {
+  color: $search-dark-color;
+}
+.text-search {
+  color: $search-color;
+}
