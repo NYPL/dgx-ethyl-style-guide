@@ -1,0 +1,13 @@
+{
+  "name": "nypl-styleguide",
+  "version": "1.0.0",
+  "description": "nypl styleguide using kss",
+  "author": "mbuselli@devspark.com",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-sass": "^2.0.4",
+    "kss": "^2.1.0",
+    "sc5-styleguide": "^0.3.36"
+  }
+}
