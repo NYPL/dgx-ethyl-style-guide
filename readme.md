@@ -1,8 +1,16 @@
 # Styleguide
 
+## Installing
+
+    $ bundle install
+    $ npm install
+    $ bundle exec gulp watch
+
+Once it is running, visit http://localhost:3000.
+
+
 ## Sass / Compass
 **Useful commands:**
-* __Install:__ `sudo gem install compass`
 * __Compile:__
   * `compass compile` - or - `compass watch`
   * `sass --watch sass/application.scss:css/application.css`
