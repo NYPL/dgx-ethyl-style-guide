@@ -1,36 +1,86 @@
 @import "colors";
 
 /******** Typography - Milo Sections ********/
+
+// Blog Title
+//
+// markup:
+// <section class="blog--title">
+//   <header>
+//     <h1>Hellen Keller on What It Means to Love Books</h1>
+//     <p class="tagline">by <span>Tracy O'Neill</span>, Social Media Curator</p>
+//     <p class="date">June 24, 2015</p>
+//   </header>
+// </section>
+//
+// Styleguide 5.4
+
 .blog--title,
 .blog--quote {
-  width: 433px; // ???????
+  width: 433px; // ???
   // margin-bottom: 100px;
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
 }
 
 .body--text-milo {
-  width: 433px; // ???????
+  width: 433px; // ???
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
 }
 
+// Blog Listing
+//
+// markup:
+// <section class="blog--listing">
+//   <h1>What's Your Literary Waterloo?</h1>
+//   <p>In honor of the 200th anniversary of Napoleon’s infamous defeat, we asked our NYPL staff members: What’s a book you’ve never been able to conquer?</p>
+// </section>
+//
+// Styleguide 5.5
+
+// Banner
+//
+// markup:
+// <section class="banner">
+//   <header>
+//     <h1>Rock 'n' Read: Screaming Females</h1>
+//     <p class="date">Now through Friday, August 8, 2015</p>
+//     <p class="loc">Stephen A. Schwarzman Building</p>
+//   </header>
+// </section>
+//
+// Styleguide 5.6
+
 .blog--listing,
 .banner {
-  width: 326px; // ???????
+  width: 326px; // ???
   // margin-bottom: 100px;
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
 }
 
+// Maganav
+//
+// markup:
+// <section class="maganav">
+//   <header>
+//     <span class="category">Catalogs</span>
+//     <h1>Digital Collections</h1>
+//   </header>
+//   <p>Access more than 800,000 images digitized from the New York Public Library's collections including historical maps, vintage posters, photographs, and more.</p>
+// </section>
+//
+// Styleguide 5.7
+
 .maganav {
-  width: 326px; // ???????
+  width: 326px; // ???
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
 }
 
 aside.milo {
-  width: 472px; // ???????
+  width: 472px; // ???
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
 }
@@ -141,6 +191,7 @@ aside.milo {
 
 
 /******** Banner ********/
+
 .banner {
   h1 {
     font-family: 'MiloSlab-Light', serif;
@@ -175,7 +226,7 @@ aside.milo {
 
 /******** Maganav ********/
 .maganav {
-  width: 292px; // ??????
+  width: 292px; // ???
 
   h1 {
     font-family: 'MiloSlab-Light', serif;

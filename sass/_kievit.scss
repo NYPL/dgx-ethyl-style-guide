@@ -21,6 +21,31 @@
 }
 
 /******** Global Nav ********/
+
+// Navigation
+//
+// Styleguide 4
+
+// Global Navigation
+//
+// markup:
+//  <section class="global-nav">
+//     <nav>
+//       <ul>
+//         <li><a href="#">Browse</a></li>
+//         <li><a href="#">Learn</a></li>
+//         <li><a href="#">Attend</a></li>
+//         <li class="active"><a href="#">Find Us</a></li>
+//         <li><a href="#">Research</a></li>
+//         <li><a href="#">Give</a></li>
+//         <li><a href="#">Get Help</a></li>
+//         <li><a href="#" class="search-btn">Search</a></li>
+//       </ul>
+//     </nav>
+//   </section>
+//
+// Styleguide 4.1
+
 .global-nav {
   ul {
     padding: 0;
@@ -51,6 +76,7 @@
 }
 
 /******** Medium & Small Listings ********/
+
 .medium-listing,
 .small-listing {
   h1, h2 {
@@ -70,6 +96,22 @@
   }
 }
 
+// Medium Listing
+//
+// markup:
+// <section class="medium-listing">
+//   <header>
+//     <h1>
+//       Lucia Chase:<br>
+//       A Legacy of Dance
+//     </h1>
+//     <p class="date">6 PM | Wednesday, July 4</p>
+//     <p class="loc">Schwarzman Building, Celeste Bartos Forum</p>
+//   </header>
+// </section>
+//
+// Styleguide 5.8
+
 .medium-listing {
   h1 {
     font-size: 26px;
@@ -80,6 +122,18 @@
     }
   }
 }
+
+// Small Listing
+//
+// markup:
+// <section class="small-listing">
+//   <header>
+//     <h2>Elizabeth Alexander | Hilton Als</h2>
+//     <p class="date">7 PM | FRIDAY, APRIL 1</p>
+//   </header>
+// </section>
+//
+// Styleguide 5.9
 
 .small-listing h2 {
   font-size: 20px;
@@ -97,6 +151,16 @@
 
 
 /******** Body Text ********/
+
+// Body Text Kievit
+//
+// markup:
+// <section class="body-text-kievit">
+//   <p>If you read Gillian Flynn's smash bestseller <em>Gone Girl</em>, then I'm sure you've also been up on the questions, and you're eager to see what really happened.</p>
+// </section>
+//
+// Styleguide 5.10
+
 .body-text-kievit {
   p {
     font-family: 'Kievit-Book', sans-serif;
@@ -115,6 +179,18 @@
 }
 
 /******** Podcast ********/
+// Podcast
+//
+// markup:
+// <section class="podcast">
+//   <header>
+//     <h1>Podcast #67: Werner Herzog on Greece and Wrestlemania</h1>
+//     <p class="tagline">The NYPL Podcast</p>
+//   </header>
+// </section>
+//
+// Styleguide 5.11
+
 .podcast {
   h1 {
     font-family: 'Kievit-Book', sans-serif;
@@ -141,6 +217,20 @@
 
 
 /******** Lookup ********/
+
+// Lookup
+//
+// markup:
+// <section class="lookup">
+//   <img class="thumb" src="imgs/placeholder-lookup.png">
+//   <div>
+//     <p class="name">Anne Rouyer</p>
+//     <p class="title">Supervising Librarian, Mulberry Street Library</p>
+//   </div>
+// </section>
+//
+// Styleguide 5.12
+
 .lookup {
   img.thumb {
     display: inline-block;

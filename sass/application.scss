@@ -15,7 +15,26 @@
 
 
 /******** Dropdown / Input Field ********/
-.styled select {
+
+// Select & Input
+//
+// Styleguide 7
+
+// Select
+//
+// markup:
+// <div class="select">
+//   <select>
+//     <option selected="">Search for All</option>
+//     <option>Option 1</option>
+//     <option>Option 2</option>
+//     <option>Option 3</option>
+//   </select>
+// </div>
+//
+// Styleguide 7.1
+
+.select select {
   outline: none;
   background: transparent;
   font-size: 16px;
@@ -27,7 +46,7 @@
   color: $gray-color;
 }
 
-.styled {
+.select {
   outline: none;
   height: 34px;
   width: 198px;
@@ -39,6 +58,13 @@
   // margin-bottom: 34px; // ?????
   padding: 0 4px;
 }
+
+// Input
+//
+// markup:
+// <input type="text" placeholder="Enter Text">
+//
+// Styleguide 7.2
 
 input[type="text"] {
   outline: none;

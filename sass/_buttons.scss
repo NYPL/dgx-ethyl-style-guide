@@ -8,7 +8,7 @@
 //
 // Styleguide 2.0
 
-// Button
+// Normal Buttons
 //
 // .btn - Default button.
 // .btn-hover - Button hover class.
@@ -72,6 +72,17 @@
   overflow: hidden;
 }
 
+
+// Play & Search Buttons
+//
+// .btn-large.btn-play - Play button.
+// .btn-large.btn-search - Search button.
+//
+// markup:
+// <button class="btn-large {$modifiers}">Button</button>
+//
+// Styleguide 2.2
+
 .btn-play {
   background:url(../imgs/buttons-circle.png) no-repeat transparent;
   background-position: 0 0;
@@ -83,6 +94,19 @@
 }
 
 /******** Large Icon Inverse ********/
+
+// Inverse Buttons - Play and Search
+//
+// markup:
+// <div class="vid-bg">
+//   <button class="btn-large btn-play__inverse">Play</button>
+// </div>
+// <div class="search-bg">
+//   <button class="btn-large btn-search__inverse">Search</button>
+// </div>
+//
+// Styleguide 2.3
+
 .btn-play__inverse {
   background: url(../imgs/buttons-circle.png) no-repeat transparent;
   background-position: -72px 0;
@@ -149,6 +173,15 @@
 }
 
 /******** Nav ********/
+
+// Navigation Buttons
+//
+// markup:
+//   <button class="btn__prev"></button>
+//   <button class="btn__next"></button>
+//
+// Styleguide 2.6
+
 .btn__prev,
 .btn__next {
   width: 28px;
@@ -173,6 +206,21 @@
 .nav-buttons .btn__next {
   margin-right: 11px;
 }
+
+// Buttons More - Small
+//
+// markup:
+//   <button class="btn-more more-sm"></button>
+//
+// Styleguide 2.4
+
+// Buttons More - Large
+//
+// markup:
+//   <button class="btn-more more-lg">4</button>
+//   <button class="btn-more more-lg">See More</button>
+//
+// Styleguide 2.5
 
 
 /******** More Buttons ********/

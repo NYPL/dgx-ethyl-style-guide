@@ -16,6 +16,16 @@
   vertical-align: middle;
 }
 
+// Medium Circle
+//
+// markup:
+//   <section>
+//     <img class="med-circle" src="imgs/placeholder-med_circle.jpg">
+//     <span>meganav inset</span>
+//   </section>
+//
+// Styleguide 5.2
+
 .med-circle {
   width: 88px;
   height: 88px;
@@ -25,6 +35,16 @@
   }
 }
 
+// Small Circle
+//
+// markup:
+// <section>
+//   <img class="sm-circle" src="imgs/placeholder-sm_circle.jpg">
+//   <span>Author's thumbnail</span>
+// </section>
+//
+// Styleguide 5.3
+
 .sm-circle {
   width: 44px;
   height: 44px;
@@ -33,5 +53,3 @@
     @extend .img-circle--span;
   }
 }
-
-

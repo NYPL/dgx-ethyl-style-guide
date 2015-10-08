@@ -5,6 +5,83 @@ $gray1-color: #9c9c9c;
 $gray2-color: #4b4b4b;
 
 /******** Large & Small Icons ********/
+
+// Icons
+//
+// Styleguide 3
+
+// Large Icons
+//
+// .icon-lg.icon-lib - Icon Lib
+// .icon-lg.icon-card - Icon Card
+// .icon-lg.icon-board - Icon Board
+// .icon-lg.icon-easel - Icon Easel
+//
+// markup:
+//   <span class="{$modifiers}"></span>
+//
+// Styleguide 3.1
+
+// Small Icons
+//
+// .icon-sm.icon-speech - Icon Speach
+// .icon-sm.icon-book - Icon Book
+// .icon-sm.icon-headphones - Icon Headphones
+// .icon-sm.icon-video - Icon Video
+//
+// markup:
+//   <span class="{$modifiers}"></span>
+//
+// Styleguide 3.2
+
+// Lion Icons
+//
+// markup:
+//   <div class="lion-inverse-bg">
+//     <span class="icon-lion icon-lion__inverse icon-lion-lg"></span>
+//     <span class="icon-lion icon-lion__inverse icon-lion-sm"></span>
+//   </div>
+//   <div>
+//     <span class="icon-lion icon-lion-lg"></span>
+//     <span class="icon-lion icon-lion-sm"></span>
+//   </div>
+//
+// Styleguide 3.3
+
+// Social Media List & Icons
+//
+// markup:
+//   <ul class="social-media">
+//     <li class="facebook">
+//       <span class="icon-social icon-facebook"></span> 821
+//     </li>
+//     <li class="twitter">
+//       <span class="icon-social icon-twitter"></span> 769
+//     </li>
+//     <li class="pinterest">
+//       <span class="icon-social icon-pinterest"></span> 158
+//     </li>
+//     <li class="tumblr">
+//       <span class="icon-social icon-tumblr"></span> 55
+//     </li>
+//     <li class="more">
+//       <span class="icon-more"></span>
+//     </li>
+//   </ul>
+//
+// Styleguide 3.4
+
+// Sub Brand
+//
+// .icon-nypllive - NYPL Live.
+// .icon-techconnect - Tech Connect.
+// .icon-schomberg - Schomberg.
+//
+// markup:
+//   <span class="icon-subbrand {$modifiers}"></span>
+//
+// Styleguide 3.5
+
 .icon {
   &-lg,
   &-sm {

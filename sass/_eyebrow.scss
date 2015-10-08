@@ -49,6 +49,26 @@ $gray4-c: #666;
 }
 
 /******** Main Banner Selector ********/
+
+// Main Banner
+//
+// markup:
+//   <section class="main-banner-selector">
+//     <ul>
+//       <li class="active">
+//         <a href="#">Rock 'N' Read</a>
+//       </li>
+//       <li>
+//         <a href="#">Digital Collections</a>
+//       </li>
+//       <li>
+//         <a href="#">Live from the NYPL</a>
+//       </li>
+//     </ul>
+//   </section>
+//
+// Styleguide 4.2
+
 .main-banner-selector {
   ul {
     padding: 0;
@@ -85,6 +105,20 @@ $gray4-c: #666;
 }
 
 /******** Blog Quote ********/
+// Utils
+//
+// Styleguide 5
+
+// Blog Quote
+//
+// markup:
+// <section class="blog-quote">
+//   <hr>
+//   <h1>Sorrow everywhere with</h1>
+// </section>
+//
+// Styleguide 5.1
+
 .blog-quote {
   h1 {
     font-family: 'MiloSlab-LightItalic', serif;
@@ -105,6 +139,37 @@ $gray4-c: #666;
 
 
 /******** Mega Nav & Sub Menu ********/
+
+// Mega Navigation
+//
+// markup:
+// <section class="mega-nav">
+//   <span class="title">Attend</span>
+//   <ul>
+//     <li><a href="#">Events</a></li>
+//     <li><a href="#">Exhibitions</a></li>
+//     <li><a href="#">Tours</a></li>
+//   </ul>
+// </section>
+//
+// Styleguide 4.3
+
+// Sub Menu
+//
+// markup:
+// <section class="sub-menu">
+//   <span class="title">Learn</span>
+//   <ul>
+//     <li><a href="#">Kids</a></li>
+//     <li><a href="#">Teens</a></li>
+//     <li><a href="#">Parents</a></li>
+//     <li><a href="#">Teachers</a></li>
+//     <li><a href="#">Adults</a></li>
+//   </ul>
+// </section>
+//
+// Styleguide 4.4
+
 .mega-nav,
 .sub-menu {
   font-family: 'Kievit-Medium', sans-serif;
