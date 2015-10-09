@@ -37,8 +37,29 @@
 .pull-right { @include float-right; }
 .pull-left { @include float-left; }
 
+
+// Columns
+//
+// .col-1  - Column 1
+// .col-2  - Column 2
+// .col-3  - Column 3
+// .col-4  - Column 4
+// .col-5  - Column 5
+// .col-6  - Column 6
+// .col-7  - Column 7
+// .col-8  - Column 8
+// .col-9  - Column 9
+// .col-10  - Column 10
+// .col-11  - Column 11
+// .col-12  - Column 12
+//
+// markup:
+// <div class="styleguide-grid-unit {$modifiers}">{$modifiers}</div>
+//
+// Styleguide 5.6
+
 @for $i from 1 through $grid-columns {
-  .column-#{$i} {
+  .col-#{$i} {
     width: 100% / $grid-columns * $i;
     @include float-left;
   }
