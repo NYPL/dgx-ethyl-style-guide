@@ -7,8 +7,10 @@
     $ npm install
     $ bundle exec gulp watch
 
-Once it is running, visit http://localhost:3000.
+Once it is running, visit http://localhost:3001.
 
+## Production
+Use `gulp styleguide` instead of `gulp watch`.
 
 ## SC5 style guide generator
 

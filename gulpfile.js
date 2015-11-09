@@ -9,7 +9,7 @@ gulp.task('styleguide:generate', function() {
     .pipe(styleguide.generate({
         title: 'NYPL Styleguide',
         server: true,
-        port: 3000,
+        port: 3001,
         rootPath: outputPath,
         overviewPath: 'readme.md',
         styleSource: 'css/*.css'
