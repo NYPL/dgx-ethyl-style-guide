@@ -62,6 +62,35 @@
   font-feature-settings: "lnum" 1; /* No variation */
 }
 
+/******** Body Text Milo ********/
+
+// Body Text Milo
+//
+// markup:
+// <section class="body-text-milo">
+//   <p>If you read Gillian Flynn's smash bestseller <em>Gone Girl</em>, then I'm sure you've also been up on the questions, and you're eager to see what really happened.</p>
+// </section>
+//
+// Styleguide 6.7
+
+.body-text-milo {
+  p {
+    font-family: 'MiloSlab-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+
+  em {
+  font-family: 'MiloSlab-RegularItalic';
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+
 // Maganav
 //
 // markup:
