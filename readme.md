@@ -1,11 +1,12 @@
 # Styleguide
 
 
-## Installing
+## Installing ++
 
     $ bundle install
     $ npm install
     $ bundle exec gulp watch
+
 
 Once it is running, visit http://localhost:3001.
 
@@ -29,3 +30,6 @@ Use `gulp styleguide` instead of `gulp watch`.
 *   __Compile:__
     *   `compass compile`  - or -  `compass watch`
     *   `sass --watch sass/application.scss:css/application.css`
+
+
+Do some other things

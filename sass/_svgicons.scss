@@ -1,0 +1,112 @@
+@import "colors";
+
+// SVG Icons
+//
+// 
+// Our general SVG icon set
+//
+// .svg-icon - SVG Specific class 
+//
+// 
+// markup:
+//<svg style="position: absolute; width: 100; height: 100;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+//  <defs>
+//	  <symbol id="icon-circle-more" viewBox="0 0 1024 1024">
+//	    <title>circle-more</title>
+//	    <path fill="{$modifiers}" class="path1" d="M512 1003.52c-125.952 0-251.904-48.128-348.16-143.36-191.488-192.512-191.488-503.808 0-696.32 192.512-191.488 503.808-191.488 696.32 0 191.488 191.488 191.488 503.808 0 695.296-96.256 96.256-222.208 144.384-348.16 144.384zM512 77.824c-111.616 0-222.208 41.984-307.2 126.976-168.96 169.984-168.96 444.416 0 614.4 169.984 168.96 444.416 168.96 614.4 0 168.96-169.984 168.96-444.416 0-614.4-84.992-83.968-195.584-126.976-307.2-126.976z">
+//     </path>
+//	   <path class="path2" d="M353.28 512c0 24.884-20.172 45.056-45.056 45.056s-45.056-20.172-45.056-45.056c0-24.884 20.172-45.056 45.056-45.056s45.056 20.172 45.056 45.056z">
+//	   </path>
+//	   <path class="path3" d="M557.056 512c0 24.884-20.172 45.056-45.056 45.056s-45.056-20.172-45.056-45.056c0-24.884 20.172-45.056 45.056-45.056s45.056 20.172 45.056 45.056z">
+//     </path>
+//	   <path class="path4" d="M760.832 512c0 24.884-20.172 45.056-45.056 45.056s-45.056-20.172-45.056-45.056c0-24.884 20.172-45.056 45.056-45.056s45.056 20.172 45.056 45.056z">
+//     </path>
+//    </symbol>
+//  </defs>
+//</svg>
+//<div class="glyph">
+// <svg class="nypl-svg svg-icon icon-circle-more">
+//  <use xlink:href="#icon-circle-more">
+//  </use>
+// </svg>
+//</div>
+//
+// Styleguide 8
+
+/******** SVG Icons ********/
+$primary-color:#ED1C24; 
+
+svg {
+	color:$primary-color;
+	display: block;
+	}
+
+symbol {}
+
+.svg-icon {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	fill: red;}
+
+.glyph {font-size: 16px;}
+
+.icon-circle-more {
+		fill:#025acb;
+}
+
+
+
+// SVG Circle Arrow Icon Right
+//
+//
+// markup:
+//<svg class="defined" version="1.1" xmlns="http:www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink" aria-labelledby="title">
+// <defs>
+//  <symbol id="icon-circle-arrow-right" viewBox="0 0 1024 1024">
+//	  <title>circle-arrow-right</title>
+//	    <path class="path1" d="M487.424 339.968l149.504 151.552h-370.688v51.2h370.688l-149.504 150.528 40.96 40.96 219.136-219.136-219.136-217.088z"></path>
+//	    <path class="path2" d="M854.016 168.96c-92.16-92.16-215.040-143.36-346.112-143.36s-253.952 51.2-346.112 143.36c-92.16 92.16-143.36 215.040-143.36 346.112s51.2 253.952 143.36 346.112c95.232 95.232 221.184 143.36 346.112 143.36s250.88-48.128 346.112-143.36c191.488-190.464 191.488-500.736 0-692.224zM814.080 821.248c-168.96 168.96-442.368 168.96-611.328 0-81.92-81.92-126.976-190.464-126.976-305.152s45.056-224.256 126.976-305.152 189.44-126.976 305.152-126.976 224.256 45.056 305.152 126.976c168.96 167.936 168.96 442.368 1.024 610.304z"></path>
+//  </symbol>
+// </defs>
+//</svg>
+//<div class="glyph">
+// <a href="#">
+// 	<svg class="icon icon-circle-arrow-right">
+// 		<use xlink:href="#icon-circle-arrow-right"></use>
+// 	</svg>
+// </a>
+//</div>
+//
+// Styleguide 8.1
+/******** SVG Circle Arrow Icon Right ********/
+
+
+.icon-circle-arrow-right {color:$primary-color;}
+
+
+// Arrow Icon
+//
+// markup:
+//<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200" xml:space="preserve" class="icon-circle-arrow-right">
+//<g id="left_arrow">
+//	<polygon points="77.5,41.7 62.9,27 99,27 99,22 62.9,22 77.5,7.2 73.5,3.1 52.1,24.5 73.5,45.8" />
+//</g>
+//</svg>
+//
+// Styleguide 8.2
+
+.icon-arrow-left {
+	
+}
+
+// Another Test Icon
+//
+// markup:
+//<svg class="defined" version="1.1" xmlns="http:www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink" aria-labelledby="title" width="100" height="100px" viewBox="0 0 1024 1024">
+//<title>circle-arrow-right</title>
+//	    <path class="path1" d="M487.424 339.968l149.504 151.552h-370.688v51.2h370.688l-149.504 150.528 40.96 40.96 219.136-219.136-219.136-217.088z"></path>
+//	    <path class="path2" d="M854.016 168.96c-92.16-92.16-215.040-143.36-346.112-143.36s-253.952 51.2-346.112 143.36c-92.16 92.16-143.36 215.040-143.36 346.112s51.2 253.952 143.36 346.112c95.232 95.232 221.184 143.36 346.112 143.36s250.88-48.128 346.112-143.36c191.488-190.464 191.488-500.736 0-692.224zM814.080 821.248c-168.96 168.96-442.368 168.96-611.328 0-81.92-81.92-126.976-190.464-126.976-305.152s45.056-224.256 126.976-305.152 189.44-126.976 305.152-126.976 224.256 45.056 305.152 126.976c168.96 167.936 168.96 442.368 1.024 610.304z"></path>
+//</svg>
+//
+// Styleguide 8.3

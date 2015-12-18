@@ -36,13 +36,14 @@
 // $blue-color - blue color.
 // $light-blue-color - light color.
 // $footer-color - footer color.
+// $test-color - test color
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
 //
 // Styleguide 1.1
 
-$primary-color: #ed1c24;
+$primary-color: #ED1C24;
 $secondary-color: #1DA1D4;
 $browse-dark-color: #BB1D12;
 $browse-color: #E73621;
@@ -70,6 +71,7 @@ $search-color: $secondary-color;
 $blue-color: #2799c5;
 $light-blue-color: #93cce2;
 $footer-color: #54514A;
+$test-color: #ac56bc;
 
 
 

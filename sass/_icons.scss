@@ -4,6 +4,10 @@ $red-color: #e4382c;
 $gray1-color: #9c9c9c;
 $gray2-color: #4b4b4b;
 
+
+/* Import Icomoon  */
+
+
 /******** Large & Small Icons ********/
 
 // Icons
@@ -81,6 +85,8 @@ $gray2-color: #4b4b4b;
 //   <span class="icon-subbrand {$modifiers}"></span>
 //
 // Styleguide 3.5
+
+
 
 .icon {
   &-lg,
@@ -171,7 +177,7 @@ $gray2-color: #4b4b4b;
     margin-right: 8px;
   }
 
-  /******** Social Media Icons ********/
+  /******** Social Media Iconssssss ********/
   &-facebook {
     background-position: 0 0;
   }
@@ -194,6 +200,7 @@ $gray2-color: #4b4b4b;
   }
 
 }
+
 
 .lion-inverse-bg { // styleguide-specific
   background: $red-color;
@@ -220,3 +227,246 @@ $gray2-color: #4b4b4b;
     }
   }
 }
+
+/******** Font Icons ~ Icomoon ********/
+// NYPL Icomoon Icons
+//
+// The Lion Logo Mark typically is used in a couple specific places
+//
+// Another thing is necessary to see...
+//
+// .nypl-icon-logo-mark - NYPL Lion logo icon 
+// .nypl-icon-logo-type - Logo Type
+// .nypl-icon-burger-nav - Burger Nav icon
+// .nypl-icon-circle-x - Circle X Closer icon
+// .nypl-icon-solo-x - X closer
+// .nypl-icon-circle-more - Circle More icon
+// .nypl-icon-more-dots - More dots icon
+// .nypl-icon-arrow-meganav - Arrow Meganav icon
+// .nypl-icon-arrow-meganav-large - Large Arrow Meganav icon
+// .nypl-icon-arrow-up - Arrow Up icon
+// .nypl-icon-arrow-down - Arrow Down icon
+// .nypl-icon-arrow-left - Arrow Left icon
+// .nypl-icon-circle-arrow-left - Circle Arrow left icon
+// .nypl-icon-arrow-right - Arrow Right icon
+// .nypl-icon-circle-arrow-right - Circle Arrow Right icon 
+// .nypl-icon-wedge-right - Wedge icon right
+// .nypl-icon-circle-wedge-right - Circle wedge right
+// .nypl-icon-wedge-left - Wedge icon left
+// .nypl-icon-circle-wedge-left - Circle wedge left
+// .nypl-icon-wedge-down - Wedge icon down
+// .nypl-icon-wedge-up - Wedge icon up
+// .nypl-icon-magnifier-thin - Magnifier icon thin
+// .nypl-icon-magnifier-fat - Magnifier icon fat 
+// .nypl-icon-magnifier-circle - Circle Magnifier icon
+// .nypl-icon-mail - Mail icon
+// .nypl-icon-book - Book icon
+// .nypl-icon-card - Library Card icon
+// .nypl-icon-login - Login icon
+// .nypl-icon-locator-small - Small Location icon
+// .nypl-icon-locator-large - Large Location icon
+// .nypl-icon-locator-no-dot - Location icon sans dot
+// .nypl-icon-play-large - Large Play icon
+// .nypl-icon-play-med - Medium Play icon
+// .nypl-icon-play-small - Small Play icon
+// .nypl-icon-equals-small - Small equals icon
+// .nypl-icon-check-solo - Check icon
+// .nypl-icon-circle-check - Circle Check icon
+// .nypl-icon-bldg - Building icon
+// .nypl-icon-headphones - Headphones
+// .nypl-icon-facebook - Plain 'ol facebook icon
+// .nypl-icon-facebook-circle - Circle Facebook icon
+// .nypl-icon-facebook-circle-large - Circle Facebook Large icon
+// .nypl-icon-facebook-circle-hover - Circle Facebook hover icon
+// .nypl-icon-twitter - Plain ol twitter icon
+// .nypl-icon-twitter-circle - Circle twitter icon
+// .nypl-icon-twitter-circle-large - Circle twitter icon Large
+// .nypl-icon-twitter-circle-hover - Circle twitter hover icon
+// .nypl-icon-instagram - Instagram icon
+// .nypl-icon-tumblr - Tumblr icon
+// .nypl-icon-itunes - iTunes icon
+// .nypl-icon-youtube - Youtube icon
+// .nypl-icon-soundcloud - Soundcloud icon
+//
+// markup: 
+// <span class="lg-icon {$modifiers}"></span>
+//
+// Styleguide 3.6
+
+
+	
+[class^="nypl-icon-"], [class*=" nypl-icon-"] {
+  font-family: 'nypl-moon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.lg-icon {font-size: 64px;}
+
+.nypl-icon-arrow-meganav-large:before {
+  content: "\e801";
+}
+.nypl-icon-arrow-meganav:before {
+  content: "\e800";
+}
+.nypl-icon-card:before {
+  content: "\e623";
+}
+.nypl-icon-book:before {
+  content: "\e624";
+}
+.nypl-icon-play-large:before {
+  content: "\e625";
+}
+.nypl-icon-play-med:before {
+  content: "\e626";
+}
+.nypl-icon-play-small:before {
+  content: "\e603";
+}
+.nypl-icon-headphones:before {
+  content: "\e627";
+}
+.nypl-icon-solo-x:before {
+  content: "\e611";
+}
+.nypl-icon-mail:before {
+  content: "\e61c";
+}
+.nypl-icon-login:before {
+  content: "\e61d";
+}
+.nypl-icon-logo-mark:before {
+  content: "\e61e";
+}
+.nypl-icon-logo-type:before {
+  content: "\e61f";
+}
+.nypl-icon-locator-no-dot:before {
+  content: "\e620";
+}
+.nypl-icon-locator-small:before {
+  content: "\e616";
+}
+.nypl-icon-locator-large:before {
+  content: "\e615";
+}
+.nypl-icon-burger-nav:before {
+  content: "\e614";
+}
+.nypl-icon-wedge-right:before {
+  content: "\e621";
+}
+.nypl-icon-wedge-left:before {
+  content: "\e622";
+}
+.nypl-icon-wedge-down:before {
+  content: "\e600";
+}
+.nypl-icon-wedge-up:before {
+  content: "\e601";
+}
+.nypl-icon-magnifier-thin:before {
+  content: "\e617";
+}
+.nypl-icon-magnifier-fat:before {
+  content: "\e609";
+}
+.nypl-icon-magnifier-circle:before {
+  content: "\e602";
+}
+.nypl-icon-facebook-circle:before {
+  content: "\e62e";
+}
+.nypl-icon-facebook-circle-large:before {
+  content: "\e62c";
+}
+.nypl-icon-facebook-circle-hover:before {
+  content: "\e630";
+}
+.nypl-icon-twitter-circle:before {
+  content: "\e62f";
+}
+.nypl-icon-twitter-circle-large:before {
+  content: "\e62d";
+}
+.nypl-icon-twitter-circle-hover:before {
+  content: "\e631";
+}
+.nypl-icon-facebook:before {
+  content: "\e604";
+}
+.nypl-icon-twitter:before {
+  content: "\e605";
+}
+.nypl-icon-tumblr:before {
+  content: "\e606";
+}
+.nypl-icon-instagram:before {
+  content: "\e618";
+}
+.nypl-icon-soundcloud:before {
+  content: "\e619";
+}
+.nypl-icon-itunes:before {
+  content: "\e61a";
+}
+.nypl-icon-youtube:before {
+  content: "\e61b";
+}
+.nypl-icon-bldg:before {
+  content: "\e607";
+}
+.nypl-icon-equals-small:before {
+  content: "\e608";
+}
+.nypl-icon-arrow-up:before {
+  content: "\e60a";
+}
+.nypl-icon-arrow-down:before {
+  content: "\e629";
+}
+.nypl-icon-arrow-left:before {
+  content: "\e62a";
+}
+.nypl-icon-arrow-right:before {
+  content: "\e62b";
+}
+.nypl-icon-circle-arrow-left:before {
+  content: "\e60b";
+}
+.nypl-icon-circle-arrow-right:before {
+  content: "\e60c";
+}
+.nypl-icon-circle-wedge-left:before {
+  content: "\e60d";
+}
+.nypl-icon-circle-wedge-right:before {
+  content: "\e60e";
+}
+.nypl-icon-circle-more:before {
+  content: "\e60f";
+}
+.nypl-icon-more-dots:before {
+  content: "\e610";
+}
+.nypl-icon-circle-x:before {
+  content: "\e612";
+}
+.nypl-icon-circle-check:before {
+  content: "\e613";
+}
+.nypl-icon-check-solo:before {
+  content: "\e628";
+}	
+	
+	

@@ -1,70 +1,89 @@
+/* Set the path to UX Static */
+$FONT_PATH: '//ux-static.nypl.org';
 
+/* Type Faces */
 @font-face {
   font-family: 'MiloSlab-Light';
-  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.woff') format('woff'),
-       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.eot') format('eot');
-  font-weight:100;
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-light/MiloSlabWebPro-Light.eot') format('eot');
+//   font-weight:100;
 }
 @font-face {
   font-family: 'MiloSlab-LightItalic';
-  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.woff') format('woff'),
-       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.eot') format('eot');
-  font-weight:100;
-  font-style: italic;
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-light-italic/MiloSlabWebPro-LightItalic.eot') format('eot');
+//   font-weight:100;
+//   font-style: italic;
 }
 @font-face {
   font-family: 'MiloSlab-Regular';
-  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular/MiloSlabWebPro.woff') format('woff'),
-       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular/MiloSlabWebPro.eot') format('eot');
-  font-weight:400;
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular/MiloSlabWebPro.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular/MiloSlabWebPro.eot') format('eot');
+//   font-weight:400;
 }
 @font-face {
   font-family: 'MiloSlab-RegularItalic';
-  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.woff') format('woff'),
-       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.eot') format('eot');
-  font-weight:400;
-  font-style: italic;
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular-italic/MiloSlabWebPro-Italic.eot') format('eot');
+//   font-weight:400;
+//   font-style: italic;
 }
 @font-face {
   font-family: 'MiloSlab-Medium';
-  src: url('http://ux-static.nypl.org/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.woff') format('woff'),
-       url('http://ux-static.nypl.org/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.eot') format('eot');
-  font-weight:500;
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-medium/MiloSlabWebPro-Medium.eot') format('eot');
+//   font-weight:500;
 }
 @font-face {
   font-family: 'Kievit-Light';
-  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Light.woff') format('woff'),
-       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Light.eot') format('eot');
-  font-weight:100;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Light.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Light.eot') format('eot');
+//   font-weight:100;
 }
 @font-face {
   font-family: 'Kievit-Book';
-  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Book.woff') format('woff'),
-       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Book.eot') format('eot');
-  font-weight:400;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Book.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Book.eot') format('eot');
+//   font-weight:400;
 }
 @font-face {
   font-family: 'Kievit-BookItalic';
-  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-BookIta.woff') format('woff'),
-       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-BookIta.eot') format('eot');
-  font-weight:400;
-  font-style:italic;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-BookIta.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-BookIta.eot') format('eot');
+//   font-weight:400;
+//   font-style:italic;
 }
 @font-face {
   font-family: 'Kievit-Medium';
-  src: url('../fonts/KievitWeb-Medi.woff') format('woff');
-  font-weight:500;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Medi.wof') format('woff');
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Medi.eot') format('eot');
+//   font-weight:500;
 }
 @font-face {
   font-family: 'Kievit-MediumItalic';
-  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Medi.woff') format('woff'),
-       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Medi.eot') format('eot');
-  font-weight:500;
-  font-style:italic;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Medi.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Medi.eot') format('eot');
+//   font-weight:500;
+//   font-style:italic;
 }
 @font-face {
   font-family: 'Kievit-Bold';
-  src: url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Bold.woff') format('woff'),
-       url('http://ux-static.nypl.org/ff_kievit_web/KievitWeb-Bold.eot') format('eot');
-  font-weight:700;
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Bold.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Bold.eot') format('eot');
+//   font-weight:700;
+}
+
+
+/* NYPL ICON FONT RULES */
+
+@font-face {	
+  font-family: 'nypl-moon';
+  src:url('#{$FONT_PATH}/nypl-moon/nypl-moon.eot');
+  src:url('#{$FONT_PATH}/nypl-moon/nypl-moon.eot') format('embedded-opentype'),
+    url('#{$FONT_PATH}/nypl-moon/nypl-moon.woff2') format('woff2'),
+    url('#{$FONT_PATH}/nypl-moon/nypl-moon.ttf') format('truetype'),
+    url('#{$FONT_PATH}/nypl-moon/nypl-moon.woff') format('woff'),
+    url('#{$FONT_PATH}/nypl-moon/nypl-moon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
