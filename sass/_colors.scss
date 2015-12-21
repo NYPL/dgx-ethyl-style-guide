@@ -1,42 +1,14 @@
 /******** Color Palettes ********/
 
-// Colors and typography
+// Color Palette
 //
 // This section describes base colors and typography
 //
 // Styleguide 1.0
 
-// Main colors
+// Primary color
 //
-// $primary-color - primary color.
-// $secondary-color - secondary color.
-// $browse-dark-color - browse dark color.
-// $browse-color - browse color.
-// $donate-dark-color - donate dark color.
-// $donate-color - donate color.
-// $highlight-dark-color - highlight dark color.
-// $highlight-color - highlight color.
-// $coolgray-dark-color - coolgray dark color.
-// $coolgray-color - coolgray color.
-// $findus-dark-color - findus dark color.
-// $findus-color - findus color.
-// $gethelp-dark-color - gethelp dark color.
-// $gethelp-color - gethelp color.
-// $gray-color - gray color.
-// $black-color - black color.
-// $white-color - white color.
-// $attend-dark-color - attend dark color.
-// $attend-color - attend color.
-// $learn-dark-color - learn dark color.
-// $learn-color - learn color.
-// $research-dark-color - research dark color.
-// $research-color - research color.
-// $search-dark-color - search dark color.
-// $search-color - search color.
-// $blue-color - blue color.
-// $light-blue-color - light color.
-// $footer-color - footer color.
-// $test-color - test color
+// $primary-color - Primary Library Red color.
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
@@ -44,33 +16,164 @@
 // Styleguide 1.1
 
 $primary-color: #ED1C24;
-$secondary-color: #1DA1D4;
-$browse-dark-color: #BB1D12;
-$browse-color: #E73621;
-$donate-dark-color: #9E0B0B;
-$donate-color: #CF1D1E;
+
+// Secondary UI Color
+//
+// $secondary-color - secondary user interface color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.2
+
+$secondary-color: #2799C5;
+
+// Highlight Colors
+//
+// $highlight-dark-color - highlight dark color.
+// $highlight-color - highlight color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.3
+
 $highlight-dark-color: #FEE24A;
 $highlight-color: #FFF0A1;
+
+// Grays (Cool)
+//
+// $coolgray-dark-color - coolgray dark color.
+// $coolgray-color - coolgray color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.4
+
 $coolgray-dark-color: #837E77;
 $coolgray-color: #A3A19E;
+
+// Browse Colors
+//
+// $browse-color - browse color.
+// $browse-dark-color - browse dark color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.5
+
+$browse-dark-color: #BB1D12;
+$browse-color: #E73621;
+
+// Attend Colors
+//
+// $attend-dark-color - attend dark color.
+// $attend-color - attend color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.6
+
+$attend-dark-color: #52174F;
+$attend-color: #72256D;
+
+// Learn Colors
+//
+// $learn-dark-color - learn dark color.
+// $learn-color - learn color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.7
+
+$learn-dark-color: #437529;
+$learn-color: #579B34;
+
+// Research Colors
+//
+// $research-color - research color.
+// $research-dark-color - research dark color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.8
+
+$research-dark-color: #047074;
+$research-color: #00989E;
+
+// Find Us Colors
+//
+// $findus-color - find us color.
+// $findus-dark-color - find us dark color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.9
+
 $findus-dark-color: #595141;
 $findus-color: #726958;
+
+// Get Help Colors
+//
+// $gethelp-color - gethelp color.
+// $gethelp-dark-color - gethelp dark color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.10
+
 $gethelp-dark-color: #655C4C;
 $gethelp-color: #89806F;
+
+// Donate Colors
+//
+// $donate-color - donate color.
+// $donate-dark-color - donate dark color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.11
+
+$donate-dark-color: #9E0B0B;
+$donate-color: #CF1D1E;
+
+// Search Colors
+//
+// $search-dark-color - search dark color.
+// $search-color - search color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.12
+
+$search-dark-color: #1980A9;
+$search-color: #1DA1D4;
+
+// Footer Colors
+//
+// $footer-color - footer color.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.13
+
+$footer-color: #54514A;
+
 $gray-color: #a59d8e;
 $black-color: #000000;
 $white-color: #FFFFFF;
-$attend-dark-color: #52174F;
-$attend-color: #72256D;
-$learn-dark-color: #437529;
-$learn-color: #579B34;
-$research-dark-color: #047074;
-$research-color: #00989E;
-$search-dark-color: #0089BC;
-$search-color: $secondary-color;
 $blue-color: #2799c5;
 $light-blue-color: #93cce2;
-$footer-color: #54514A;
 $test-color: #ac56bc;
 
 
@@ -102,7 +205,7 @@ $test-color: #ac56bc;
 // markup:
 // <div class="{$modifiers}">{$modifiers}</div>
 //
-// Styleguide 1.2
+// Styleguide 1.100
 
 .text-primary {
   color: $primary-color;
