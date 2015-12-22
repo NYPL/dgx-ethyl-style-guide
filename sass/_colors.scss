@@ -1,4 +1,5 @@
 /******** Color Palettes ********/
+/** _colors.scss **/
 
 // Color Palette
 //
@@ -132,7 +133,7 @@ $findus-color: #726958;
 $gethelp-dark-color: #655C4C;
 $gethelp-color: #89806F;
 
-// Donate Colors
+// Donate Colors 
 //
 // $donate-color - donate color.
 // $donate-dark-color - donate dark color.
@@ -169,45 +170,22 @@ $search-color: #1DA1D4;
 
 $footer-color: #54514A;
 
-$gray-color: #a59d8e;
+//
+
+
+/**
+ We need to define some basic colors:
+*/ 
+
 $black-color: #000000;
 $white-color: #FFFFFF;
-$blue-color: #2799c5;
-$light-blue-color: #93cce2;
-$test-color: #ac56bc;
+// $light-blue-color: #93cce2; 
+.wrack {color: #93cce2}
+.rar {color: #a59d8e}
 
+/**/
 
-
-// Text Color Classes
-//
-// text-primary - text-primary.
-// browse-text-dark - browse-text-dark.
-// text-browse - text-browse.
-// highlight-text-dark - highlight-text-dark.
-// text-highlight - text-highlight.
-// coolgray-text-dark - coolgray-text-dark.
-// text-coolgray - text-coolgray.
-// findus-text-dark - findus-text-dark.
-// text-findus - text-findus.
-// gethelp-text-dark - gethelp-text-dark.
-// text-gethelp - text-gethelp.
-// attend-text-dark - attend-text-dark.
-// text-attend - text-attend.
-// learn-text-dark - learn-text-dark.
-// text-learn - text-learn.
-// research-text-dark - research-text-dark.
-// text-research - text-research.
-// donate-text-dark - donate-text-dark.
-// text-donate - text-donate.
-// search-text-dark - search-text-dark.
-// text-search - text-search.
-//
-// markup:
-// <div class="{$modifiers}">{$modifiers}</div>
-//
-// Styleguide 1.100
-
-.text-primary {
+.text-primary-primary {
   color: $primary-color;
 }
 .browse-text-dark {

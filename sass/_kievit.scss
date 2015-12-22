@@ -8,10 +8,10 @@
 /******** Typography - Kievit ********/
 .medium-listing,
 .small-listing {
-  width: 279px; // ??
+  //width: 279px; // ??
 }
 .body-text-kievit {
-  width: 279px; // ??
+  //width: 279px; // ??
 }
 
 /******** Font System / UI ********/
@@ -156,7 +156,7 @@
 //
 // markup:
 // <section class="body-text-kievit">
-//   <p>If you read Gillian Flynn's smash bestseller <em>Gone Girl</em>, then I'm sure you've also been up on the questions, and you're eager to see what really happened.</p>
+//   <p>Do we ever consider the contribution of teens during the Civil Rights Movement—who they were and what happened to them? We often remember leaders  such as Rosa Parks and Dr. Martin Luther King, who made radical changes for the black community, but in fact teenagers during the Civil Rights Movement also made their mark in the  battle against inequality.</p><p>In March 1955 Claudette Colvin, 15, was pulled off a bus, handcuffed, and taken to jail because she refused to give up her seat for a white passenger in Montgomery, Alabama. This event took place nine months before Rosa Parks became a major figure in the Civil Rights Movement. </p>
 // </section>
 //
 // Styleguide 6.6
@@ -168,7 +168,7 @@
     font-size: 15px;
     line-height: 21px;
     letter-spacing: 0.01em;
-    margin: 0;
+    margin: 0 0 15px 0;
   }
 
   em {

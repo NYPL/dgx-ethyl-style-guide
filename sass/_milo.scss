@@ -68,7 +68,7 @@
 //
 // markup:
 // <section class="body-text-milo">
-//   <p>If you read Gillian Flynn's smash bestseller <em>Gone Girl</em>, then I'm sure you've also been up on the questions, and you're eager to see what really happened.</p>
+//   <p>Do we ever consider the contribution of teens during the Civil Rights Movement—who they were and what happened to them? We often remember leaders  such as Rosa Parks and Dr. Martin Luther King, who made radical changes for the black community, but in fact teenagers during the Civil Rights Movement also made their mark in the  battle against inequality.</p><p>In March 1955 Claudette Colvin, 15, was pulled off a bus, handcuffed, and taken to jail because she refused to give up her seat for a white passenger in Montgomery, Alabama. This event took place nine months before Rosa Parks became a major figure in the Civil Rights Movement. </p>
 // </section>
 //
 // Styleguide 6.7
@@ -80,7 +80,7 @@
     font-size: 15px;
     line-height: 21px;
     letter-spacing: 0.01em;
-    margin: 0;
+    margin: 0 0 15px 0;
   }
 
   em {
@@ -96,18 +96,39 @@
 // markup:
 // <section class="meganav">
 //   <header>
-//     <span class="category">Catalogs</span>
-//     <h1>Digital Collections</h1>
+//     <div class="FeatureItem-Content-Tag">Catalogs</div>
+//     <h3 class="FeatureItem-Content-Title">Digital Collections</h3>
 //   </header>
-//   <p>Access more than 800,000 images digitized from the New York Public Library's collections including historical maps, vintage posters, photographs, and more.</p>
+//   <div class="FeatureItem-Content-Desc">Access more than 800,000 images digitized from the New York Public Library's collections including historical maps, vintage posters, photographs, and more.</div>
 // </section>
 //
 // Styleguide 6.9
 
 .meganav {
+  font-family: 'MiloSlab-Regular', sans-serif;
   width: 326px; // ??
   -webkit-font-feature-settings: "lnum" 1; /* No variation */
   font-feature-settings: "lnum" 1; /* No variation */
+  
+  	.FeatureItem-Content-Tag {
+		font-size: 13px;
+		font-family: 'Kievit-Medium', Helvetica, Arial;
+		text-transform: uppercase;
+		letter-spacing: .05em;}
+	
+	.FeatureItem-Content-Title {
+		font-family: 'MiloSlab-Light';
+		font-size: 30px;
+		line-height: 1em;
+		margin: .75em 0;
+		font-weight: normal;	
+	}
+	
+	.FeatureItem-Content-Desc {
+		font-family: 'Kievit-Regular',Helvetica,arial;
+		font-size: 16px;
+		line-height: 1.5em;
+		letter-spacing: .01em;}
 }
 
 aside.milo {
@@ -191,7 +212,6 @@ aside.milo {
     font-family: 'MiloSlab-Regular', serif;
     font-weight: 400;
     font-size: 17px;
-    text-indent: 72px;
     line-height: 28px;
     a.publication {
       font-family: 'MiloSlab-RegularItalic', serif;
@@ -199,6 +219,7 @@ aside.milo {
       font-style: italic;
     }
   }
+  p:first-child {text-indent: 72px;}
 }
 
 

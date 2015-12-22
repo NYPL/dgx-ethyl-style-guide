@@ -40,6 +40,15 @@ $FONT_PATH: '//ux-static.nypl.org';
        url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Light.eot') format('eot');
 //   font-weight:100;
 }
+
+@font-face {
+  font-family: 'Kievit-Regular';
+  src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb.woff') format('woff'),
+       url('#{$FONT_PATH}/ff_kievit_web/KievitWeb.eot') format('eot');
+//   font-weight:400;
+}
+
+
 @font-face {
   font-family: 'Kievit-Book';
   src: url('#{$FONT_PATH}/ff_kievit_web/KievitWeb-Book.woff') format('woff'),

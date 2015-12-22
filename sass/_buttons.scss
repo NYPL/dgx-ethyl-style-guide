@@ -26,9 +26,9 @@
   font-family: 'Kievit-Book', sans-serif;
   font-weight: 400;
   font-size: 17px;
-  color: $blue-color;
+  color: $secondary-color;
   padding: 13px 12px 11px;
-  border: solid 2px $blue-color;
+  border: solid 2px $secondary-color;
   @include border-radius(3px);
   background: transparent;
   cursor: pointer;
@@ -37,13 +37,13 @@
   &:hover,
   &.btn-hover {
     color: $white-color;
-    background: $blue-color;
+    background: $secondary-color;
   }
 
   &:disabled,
   &:disabled:hover {
-    color: $light-blue-color;
-    border-color: $light-blue-color;
+    color: $secondary-color;
+    border-color: $secondary-color;
     background: transparent;
   }
 }
@@ -55,7 +55,7 @@
 
   &:hover,
   &.btn-hover {
-    color: $blue-color;
+    color: $secondary-color;
     background: $white-color;
   }
 }
@@ -225,14 +225,14 @@
 
 /******** More Buttons ********/
 .btn-more {
-  border: solid 2px $gray-color;
+  border: solid 2px $coolgray-color;
   @include border-radius(13px);
   height: 26px;
   min-width: 26px;
   background: url(../imgs/ellipsis.png) no-repeat transparent;
   font-family: 'Kievit-Medium', sans-serif;
   font-weight: 500;
-  color: $gray-color;
+  color: $coolgray-color;
   font-size: 11px;
   text-transform: uppercase;
   outline: none;

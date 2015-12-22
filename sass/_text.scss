@@ -1,0 +1,103 @@
+/********* Text Color Stylings **********/
+
+// General text Stylings
+//
+// This section describes base colors and typography. We may eventually want to deprecate this section as its seemingly not terribly relevant.
+//
+// Styleguide 9
+
+// Text Color Classes
+//
+// text-primary - text-primary. 
+// browse-text-dark - browse-text-dark.
+// text-browse - text-browse.
+// highlight-text-dark - highlight-text-dark.
+// text-highlight - text-highlight.
+// coolgray-text-dark - coolgray-text-dark.
+// text-coolgray - text-coolgray.
+// findus-text-dark - findus-text-dark.
+// text-findus - text-findus.
+// gethelp-text-dark - gethelp-text-dark.
+// text-gethelp - text-gethelp.
+// attend-text-dark - attend-text-dark.
+// text-attend - text-attend.
+// learn-text-dark - learn-text-dark.
+// text-learn - text-learn.
+// research-text-dark - research-text-dark.
+// text-research - text-research.
+// donate-text-dark - donate-text-dark.
+// text-donate - text-donate.
+// search-text-dark - search-text-dark.
+// text-search - text-search.
+//
+// markup:
+// <p class="body-text-kievit {$modifiers}">{$modifiers}</p>
+//
+// Styleguide 9.1
+
+.text-primary-primary {
+  color: $primary-color;
+}
+.browse-text-dark {
+  color: $browse-dark-color;
+}
+.text-browse {
+  color: $browse-color;
+}
+.highlight-text-dark {
+  color: $highlight-dark-color;
+}
+.text-highlight {
+  color: $highlight-color;
+}
+.coolgray-text-dark {
+  color: $coolgray-dark-color;
+}
+.text-coolgray {
+  color: $coolgray-color;
+}
+.findus-text-dark {
+  color: $findus-dark-color;
+}
+.text-findus {
+  color: $findus-color;
+}
+.gethelp-text-dark {
+  color: $gethelp-dark-color;
+}
+.text-gethelp {
+  color: $gethelp-color;
+}
+.attend-text-dark {
+  color: $attend-dark-color;
+}
+.text-attend {
+  color: $attend-color;
+}
+.learn-text-dark {
+  color: $learn-dark-color;
+}
+.text-learn {
+  color: $learn-color;
+}
+.research-text-dark {
+  color: $research-dark-color;
+}
+.text-research {
+  color: $research-color;
+}
+.donate-text-dark {
+  color: $donate-dark-color;
+}
+.text-donate {
+  color: $donate-color;
+}
+.search-text-dark {
+  color: $search-dark-color;
+}
+.text-search {
+  color: $search-color;
+} 
+
+
+
