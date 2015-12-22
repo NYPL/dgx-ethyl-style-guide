@@ -1,8 +1,10 @@
 @import "colors";
 
+/*
 $red-color: #e4382c;
 $gray1-color: #9c9c9c;
 $gray2-color: #4b4b4b;
+*/
 
 
 /* Import Icomoon  */
@@ -203,7 +205,7 @@ $gray2-color: #4b4b4b;
 
 
 .lion-inverse-bg { // styleguide-specific
-  background: $red-color;
+  background: $primary-color;
 }
 
 /******** Social Media Icons ********/
@@ -214,9 +216,9 @@ $gray2-color: #4b4b4b;
   margin: 0;
 
   li {
-    background: $gray1-color;
+    background: $coolgray-color;
     padding: 16px 20px;
-    color: $gray2-color;
+    color: $coolgray-color;
     font-family: 'Kievit-Medium', sans-serif;
     font-weight: 500;
     font-size: 13px;
