@@ -1,4 +1,5 @@
 @import "colors";
+@import "icons";
 
 // Navigation
 //
@@ -218,13 +219,23 @@
 
 /******** Lookup ********/
 
-// Lookup
+// Author / User Slug
+//
+// Use this to represent an Author / User Slug
+//
 //
 // markup:
 // <section class="lookup">
 //   <img class="sm-circle" src="imgs/placeholder-sm_circle.jpg">
 //   <div>
 //     <p class="name">Anne Rouyer</p>
+//     <p class="title">Supervising Librarian, Mulberry Street Library</p>
+//   </div>
+// </section>
+// <br>
+// <section class="lookup">
+//   <div class="lg-icon nypl-icon-logo-mark">
+//     <p class="name">Jefferson T. Babbaroon</p>
 //     <p class="title">Supervising Librarian, Mulberry Street Library</p>
 //   </div>
 // </section>
