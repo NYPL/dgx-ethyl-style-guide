@@ -172,6 +172,16 @@ $footer-color: #54514A;
 
 //
 
+// Utility & General Purpose Colors
+//
+// $charcoal - slightly less black.
+//
+// markup:
+// <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
+//
+// Styleguide 1.14
+
+$charcoal: #333333;
 
 /**
  We need to define some basic colors:
