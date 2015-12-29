@@ -289,6 +289,7 @@
   }
 }
 
+
 .rev {
 	background: $primary_color;
 	color: #fff;
@@ -300,3 +301,37 @@
 	
 	}
 	
+
+$basepx:1em;
+
+/********* Text Heading Stylings **********/
+
+// Typography Base
+//
+// This section describes base colors and typography. We may eventually want to deprecate this section as its seemingly not terribly relevant.... or not.
+//
+// Styleguide 9
+
+// Basic Headings In Kievit
+//
+// Unadorned Headlines in Kievit
+// 
+// markup: 
+// <h1 class="headlines">Cozy Lummox jumps over brown dog.</h1>
+// <h2 class="headlines">Cozy Lummox jumps over brown dog.</h2>
+// <h3 class="headlines">Cozy Lummox jumps over brown dog.</h3>
+// <h4 class="headlines">Cozy Lummox jumps over brown dog.</h4>
+//
+// Styleguide 9.1
+  
+
+.headlines {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight: normal;
+}
+
+h1 {font-size: $basepx * 2.25;}
+h2 {font-size: $basepx * 1.875; /* 30/16=1.875 */ }
+h3 {font-size: $basepx * 1.55;}
+h4 {font-size: $basepx * 1.3;}
+

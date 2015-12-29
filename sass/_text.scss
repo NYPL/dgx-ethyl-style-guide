@@ -1,10 +1,4 @@
-/********* Text Color Stylings **********/
-
-// Basic text stylings
-//
-// This section describes base colors and typography. We may eventually want to deprecate this section as its seemingly not terribly relevant.
-//
-// Styleguide 9
+@import 'colors';
 
 // Text Color Classes
 //
@@ -33,7 +27,7 @@
 // markup:
 // <p class="body-text-kievit {$modifiers}">{$modifiers}</p>
 //
-// Styleguide 9.1
+// Styleguide 9.10
 
 .text-primary-primary {
   color: $primary-color;
