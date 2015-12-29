@@ -167,6 +167,7 @@
 
 .podcast {
   h1 {
+	color:$charcoal;
     font-family: 'Kievit-Book', sans-serif;
     font-weight: 400;
     font-size: 26px;
@@ -291,19 +292,19 @@
 // 
 // markup: 
 // <section>
-// <h1 class="headlines">Upcoming Exhibitions</h1>
+// <h1 class="headlines top-level-heading">Upcoming Exhibitions</h1>
 //</section>
 //
 // Styleguide 9.1
   
 $basepx:1em; /* assuming 16px set  */
 
-section .headlines {
+.headlines {
   font-family: 'Kievit-Book', sans-serif;
   font-weight: normal;
 }
 
-section h1 {
+.top-level-heading {
 	color: $primary-color;
 	border-top:2px $primary-color solid;
 	font-size: $basepx * 1.375;  /* 22/16 = 1.375 */
@@ -316,12 +317,12 @@ section h1 {
 // 
 // markup: 
 // <section>
-// <h2 class="headlines">Jenny Odell: Peripheral Landscapes</h2>
+// <h2 class="headlines secondary-heading">Jenny Odell: Peripheral Landscapes</h2>
 // </section>
 //
 // Styleguide 9.2	
 	
-section h2 {
+.secondary-heading {
 	color:$charcoal;
 	font-size: $basepx * 1.625; /* 26/16 = 1.625*/}
 
@@ -331,14 +332,13 @@ section h2 {
 // 
 // markup: 
 // <section>
-// <h3 class="headlines">100 Years of the Picture Collection: From Abacus to Zoology</h3>
+// <h3 class="headlines tertiary-heading">100 Years of the Picture Collection: From Abacus to Zoology</h3>
 // </section>
 //
 // Styleguide 9.3	
-
 	
-section h3 {font-size: $basepx * 1.25; /* 26/16 = 1.625*/}
-h4 {font-size: $basepx * 1.2;}
+.tertiary-heading {font-size: $basepx * 1.25; /* 26/16 = 1.625*/}
+
 
 /******** Body Text ********/
 
