@@ -5,3 +5,4 @@
 
 # Ignore Mac OS DS store files
 .DS_Store
+/imgs/.DS_Store
