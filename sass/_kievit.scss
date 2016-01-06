@@ -284,7 +284,7 @@
 //
 // This section describes base colors and typography. We may eventually want to deprecate this section as its seemingly not terribly relevant.... or not.
 //
-// Styleguide 9
+// Styleguide 8
 
 // Top Level / Sectional Headings In Kievit
 //
@@ -295,7 +295,7 @@
 // <h1 class="headlines top-level-heading">Upcoming Exhibitions</h1>
 //</section>
 //
-// Styleguide 9.1
+// Styleguide 8.1
   
 $basepx:1em; /* assuming 16px set  */
 
@@ -320,7 +320,7 @@ $basepx:1em; /* assuming 16px set  */
 // <h2 class="headlines secondary-heading">Jenny Odell: Peripheral Landscapes</h2>
 // </section>
 //
-// Styleguide 9.2	
+// Styleguide 8.2	
 	
 .secondary-heading {
 	color:$charcoal;
@@ -335,7 +335,7 @@ $basepx:1em; /* assuming 16px set  */
 // <h3 class="headlines tertiary-heading">100 Years of the Picture Collection: From Abacus to Zoology</h3>
 // </section>
 //
-// Styleguide 9.3	
+// Styleguide 8.3	
 	
 .tertiary-heading {font-size: $basepx * 1.25; /* 26/16 = 1.625 */}
 
@@ -349,7 +349,7 @@ $basepx:1em; /* assuming 16px set  */
 //   <p>Do we ever consider the contribution of teens during the Civil Rights Movement—who they were and what happened to them? We often remember leaders  such as Rosa Parks and Dr. Martin Luther King, who made radical changes for the black community, but in fact teenagers during the Civil Rights Movement also made their mark in the  battle against inequality.</p><p>In March 1955 Claudette Colvin, 15, was pulled off a bus, handcuffed, and taken to jail because she refused to give up her seat for a white passenger in Montgomery, Alabama. This event took place nine months before Rosa Parks became a major figure in the Civil Rights Movement. </p>
 // </section>
 //
-// Styleguide 9.4
+// Styleguide 8.4
 
 .body-text-kievit {
   p {
