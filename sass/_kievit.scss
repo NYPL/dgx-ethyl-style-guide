@@ -1,4 +1,5 @@
 @import "colors";
+@import "icons";
 
 // Navigation
 //
@@ -8,10 +9,10 @@
 /******** Typography - Kievit ********/
 .medium-listing,
 .small-listing {
-  width: 279px; // ??
+  //width: 279px; // ??
 }
 .body-text-kievit {
-  width: 279px; // ??
+  //width: 279px; // ??
 }
 
 /******** Font System / UI ********/
@@ -150,33 +151,6 @@
 }
 
 
-/******** Body Text ********/
-
-// Body Text Kievit
-//
-// markup:
-// <section class="body-text-kievit">
-//   <p>If you read Gillian Flynn's smash bestseller <em>Gone Girl</em>, then I'm sure you've also been up on the questions, and you're eager to see what really happened.</p>
-// </section>
-//
-// Styleguide 6.6
-
-.body-text-kievit {
-  p {
-    font-family: 'Kievit-Book', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 21px;
-    letter-spacing: 0.01em;
-    margin: 0;
-  }
-
-  em {
-    font-family: 'Kievit-BookItalic', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-}
 
 /******** Podcast ********/
 // Podcast
@@ -189,10 +163,11 @@
 //   </header>
 // </section>
 //
-// Styleguide 5.3
+// Styleguide 5.4
 
 .podcast {
   h1 {
+	color:$charcoal;
     font-family: 'Kievit-Book', sans-serif;
     font-weight: 400;
     font-size: 26px;
@@ -218,20 +193,45 @@
 
 /******** Lookup ********/
 
-// Lookup
+// Author / User Slug
+//
+// <b>Find 3 representions for an Author / User Slug.</b> <br> Note the version that has been reversed, the padding, background size are 
+// for visual reference only. Do not use the class <i>.rev-ref</i> in your efforts.
+//
 //
 // markup:
 // <section class="lookup">
-//   <img class="thumb" src="imgs/placeholder-lookup.png">
+//   <img class="sm-circle" src="imgs/placeholder-sm_circle.jpg">
 //   <div>
 //     <p class="name">Anne Rouyer</p>
 //     <p class="title">Supervising Librarian, Mulberry Street Library</p>
 //   </div>
 // </section>
+// <br>
+// <section class="lookup">
+//  <div class="sm-circle"> 	
+//   <img src="imgs/nypl.mark.blk.svg" height="44px" width="44px">
+//  </div> 
+//   <div>
+//     <p class="name">Jefferson T. Babbaroon</p>
+//     <p class="title">Supervising Librarian, Mulberry Street Library</p>
+//   </div>
+// </section>
+// <br>
+// <section class="lookup rev rev-ref">
+//  <div class="sm-circle"> 	
+//   <img src="imgs/nypl.mark.inv.svg" height="44px" width="44px">
+//  </div> 
+//   <div>
+//     <p class="name">Chester Copperpot</p>
+//     <p class="title">Supervising Librarian, Mulberry Street Library</p>
+//   </div>
+// </section>
 //
-// Styleguide 5.4
+// Styleguide 5.3
 
 .lookup {
+	
   img.thumb {
     display: inline-block;
     vertical-align: middle;
@@ -240,6 +240,9 @@
     @include border-radius(24px);
     margin-right: 15px;
   }
+  
+  
+  
   > div {
     display: inline-block;
     vertical-align: middle;
@@ -259,3 +262,109 @@
     }
   }
 }
+
+
+.rev {
+	background: $primary_color;
+	color: #fff;
+	
+	&-ref {
+		height: 58px;
+		padding:7px 0 0 7px;
+	}
+	
+	}
+	
+
+
+
+/********* Text Heading Stylings **********/
+
+// Typography Base
+//
+// This section describes base colors and typography. We may eventually want to deprecate this section as its seemingly not terribly relevant.... or not.
+//
+// Styleguide 8
+
+// Top Level / Sectional Headings In Kievit
+//
+// <b>Global Sectional Headline</b></br>Using Exhibitions as an example.<br>You can see this used in most places heading each section.
+// 
+// markup: 
+// <section>
+// <h1 class="headlines top-level-heading">Upcoming Exhibitions</h1>
+//</section>
+//
+// Styleguide 8.1
+  
+$basepx:1em; /* assuming 16px set  */
+
+.headlines {
+  font-family: 'Kievit-Book', sans-serif;
+  font-weight: normal;
+}
+
+.top-level-heading {
+	color: $primary-color;
+	border-top:2px $primary-color solid;
+	font-size: $basepx * 1.375;  /* 22/16 = 1.375 */
+	padding-top: 15px;
+	}
+	
+// Secondary Level / Sectional Headings In Kievit
+//
+// <b>Refer to the Masonry Grid layout.</b></br>This is the headline styling for a hero.
+// 
+// markup: 
+// <section>
+// <h2 class="headlines secondary-heading">Jenny Odell: Peripheral Landscapes</h2>
+// </section>
+//
+// Styleguide 8.2	
+	
+.secondary-heading {
+	color:$charcoal;
+	font-size: $basepx * 1.625; /* 26/16 = 1.625 */}
+
+// Tertiary Level / Sectional Headings In Kievit
+//
+// <b>Refer to the title headings of the various layouts.</b></br>This is the headline styling for lower tiered items in the Masonry grid layout as wel as the other lower level layouts available. 
+// 
+// markup: 
+// <section>
+// <h3 class="headlines tertiary-heading">100 Years of the Picture Collection: From Abacus to Zoology</h3>
+// </section>
+//
+// Styleguide 8.3	
+	
+.tertiary-heading {font-size: $basepx * 1.25; /* 26/16 = 1.625 */}
+
+
+/******** Body Text ********/
+
+// Body Text Kievit
+//
+// markup:
+// <section class="body-text-kievit">
+//   <p>Do we ever consider the contribution of teens during the Civil Rights Movement—who they were and what happened to them? We often remember leaders  such as Rosa Parks and Dr. Martin Luther King, who made radical changes for the black community, but in fact teenagers during the Civil Rights Movement also made their mark in the  battle against inequality.</p><p>In March 1955 Claudette Colvin, 15, was pulled off a bus, handcuffed, and taken to jail because she refused to give up her seat for a white passenger in Montgomery, Alabama. This event took place nine months before Rosa Parks became a major figure in the Civil Rights Movement. </p>
+// </section>
+//
+// Styleguide 8.4
+
+.body-text-kievit {
+  p {
+    font-family: 'Kievit-Book', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin: 0 0 15px 0;
+  }
+
+  em {
+    font-family: 'Kievit-BookItalic', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+

@@ -43,14 +43,14 @@
   width: 214px;
   font-family: 'Kievit-Book', sans-serif;
   font-weight: 400;
-  color: $gray-color;
+  color: $coolgray-color;
 }
 
 .select {
   outline: none;
   height: 34px;
   width: 198px;
-  border: 2px solid $gray-color;
+  border: 2px solid $coolgray-color;
   @include border-radius(3px);
   overflow: hidden;
   background: url(../imgs/dropdown.png) 95% / 20% no-repeat transparent;
@@ -70,11 +70,11 @@ input[type="text"] {
   outline: none;
   height: 34px;
   width: 198px;
-  border: 2px solid $gray-color;
+  border: 2px solid $coolgray-color;
   @include border-radius(3px);
   font-family: 'Kievit-BookItalic', sans-serif;
   font-size: 16px;
   font-style: italic;
-  color: $gray-color;
+  color: $coolgray-color;
   padding: 1px 10px 0px;
 }

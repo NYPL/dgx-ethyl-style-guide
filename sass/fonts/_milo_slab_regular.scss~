@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'MiloSlab-Regular';
+  src: url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular/MiloSlabWebPro.woff') format('woff'),
+       url('#{$FONT_PATH}/milo-web/milo-slab-pro-regular/MiloSlabWebPro.eot') format('eot');
+//   font-weight:400;
+}
