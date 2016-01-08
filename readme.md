@@ -33,3 +33,6 @@ Use `gulp styleguide` instead of `gulp watch`.
 
 
 Do some other things
+
+
+Version 0.0.1
