@@ -289,6 +289,7 @@ $gray2-color: #4b4b4b;
 // .nypl-icon-itunes - iTunes icon
 // .nypl-icon-youtube - Youtube icon
 // .nypl-icon-soundcloud - Soundcloud icon
+// .nypl-icon-file - File icon
 //
 // markup: 
 // <span class="lg-icon {$modifiers}"></span>
@@ -469,6 +470,10 @@ $gray2-color: #4b4b4b;
 }
 .nypl-icon-check-solo:before {
   content: "\e628";
+}	
+
+.nypl-icon-file:before {
+  content: "\e900";
 }	
 	
 	
