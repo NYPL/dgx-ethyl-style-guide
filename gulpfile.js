@@ -7,7 +7,7 @@ var outputPath = 'output-generator';
 gulp.task('styleguide:generate', function() {
   return gulp.src('sass/*.scss')
     .pipe(styleguide.generate({
-        title: 'NYPL Styleguide',
+        title: 'NYPL Web Standards',
         server: true,
         port: 3001,
         rootPath: outputPath,
