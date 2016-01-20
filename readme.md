@@ -36,3 +36,4 @@ Do some other things
 
 
 Version 0.0.1
+Version 0.0.2

@@ -1,0 +1,33 @@
+@import "accessibility";
+
+// Accessibility
+//
+// Styleguide 9.0
+
+// Visually hidden text
+//
+// When text alternatives for visual elements are presented or when text is
+// hidden visually for design reason (on a mobile device for instance) it must
+// be hidden properly so that it is available to screen readers and non-visual
+// browsers. The preferred way is a version of CSS clipping method described
+// here:
+//
+// http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+//
+// It does not appear that the Webkit bug that requires a height, width and
+// overflow to be set has been fixed.
+//
+// markup:
+// <p>You won't see any text here, but inspect the element and you may be
+// surprised → <span class="visuallyHidden">Hello, World!</span></p>
+//
+// Styleguide 9.1
+
+.visuallyHidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px; 
+  overflow: hidden;
+  clip: rect(0 0 0 0); /* IE6, IE7 */
+  clip: rect(0, 0, 0, 0);
+}    

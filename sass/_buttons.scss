@@ -1,10 +1,18 @@
 /******** Call to Action, Inputs ********/
 @import "colors";
 @import "variables";
+@import "accessibility";
 
 /******** Buttons Styles ********/
 
 // Buttons
+//
+// Buttons must always have accessible text. For buttons that visually present
+// only an icon, the preferred method is to add visually hidden text to the
+// button element (using the .visuallyHidden class). This is preferred over
+// the aria-label attribute because visually hidden text works for both screen
+// readers (which will read the text) and for non-visual browsers (which will
+// display the text where they cannot display the icon).
 //
 // Styleguide 2.0
 
@@ -67,7 +75,6 @@
   border: 0;
   outline: 0;
   cursor: pointer;
-  text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -79,7 +86,9 @@
 // .btn-large.btn-search - Search button.
 //
 // markup:
-// <button class="btn-large {$modifiers}">Button</button>
+// <button class="btn-large {$modifiers}">
+//   <span class="visuallyHidden">(Label)</span>
+// </button>
 //
 // Styleguide 2.2
 
@@ -99,10 +108,13 @@
 //
 // markup:
 // <div class="vid-bg">
-//   <button class="btn-large btn-play__inverse">Play</button>
+//   <button class="btn-large btn-play__inverse">
+//     <span class="visuallyHidden">Play</button>
 // </div>
 // <div class="search-bg">
-//   <button class="btn-large btn-search__inverse">Search</button>
+//   <button class="btn-large btn-search__inverse">
+//     <span class="visuallyHidden">Search</span>
+//   </button>
 // </div>
 //
 // Styleguide 2.3
@@ -177,8 +189,12 @@
 // Navigation Buttons
 //
 // markup:
-//   <button class="btn__prev"></button>
-//   <button class="btn__next"></button>
+//   <button class="btn__prev">
+//     <span class="visuallyHidden">Previous</span>
+//   </button>
+//   <button class="btn__next">
+//     <span class="visuallyHidden">Next</span>
+//   </button>
 //
 // Styleguide 2.6
 
@@ -210,7 +226,9 @@
 // Buttons More - Small
 //
 // markup:
-//   <button class="btn-more more-sm"></button>
+//   <button class="btn-more more-sm">
+//     <span class="visuallyHidden">See More</span>
+//   </button>
 //
 // Styleguide 2.4
 
