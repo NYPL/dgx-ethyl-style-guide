@@ -32,8 +32,9 @@ Use `gulp styleguide` instead of `gulp watch`.
     *   `sass --watch sass/application.scss:css/application.css`
 
 
-Do some other things
+### Current Version
+Version 0.0.3
 
+Version 0.0.2
 
 Version 0.0.1
-Version 0.0.2
