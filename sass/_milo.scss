@@ -293,21 +293,25 @@ aside.milo {
 
 /******** Milo Body Text ********/
 .body-text-milo {
-  
     font-family: 'MiloSlab-Regular', serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
     margin-bottom: 15px;
       
-    .blog-text-link {color:$secondary-color;}/* /blog-text-link  */
+    .blog-text-link {
+	    color:$secondary-color;
+	    }/* /blog-text-link  */
+
 	.citation {
 		@extend .blog-text-link;
-		font-style: italic;} /* /citation*/
+		font-style: italic;
+		} /* /citation */
 
-  &:first-child {text-indent: 72px;}
-  
-  }
+  &:first-child {
+	  text-indent: 72px;
+	  }
+  } /* /body-text-milo */
   
   
   
