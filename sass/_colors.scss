@@ -133,7 +133,7 @@ $findus-color: #726958;
 $gethelp-dark-color: #655C4C;
 $gethelp-color: #89806F;
 
-// Donate Colors 
+// Donate Colors
 //
 // $donate-color - donate color.
 // $donate-dark-color - donate dark color.
@@ -170,91 +170,18 @@ $search-color: #1DA1D4;
 
 $footer-color: #54514A;
 
-//
-
 // Utility & General Purpose Colors
 //
+//
+// $black-color - black color.
 // $charcoal - slightly less black.
+// $white-color - white color.
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
 //
 // Styleguide 1.14
 
-$charcoal: #333333;
-
-/**
- We need to define some basic colors:
-*/ 
-
 $black-color: #000000;
+$charcoal: #333333;
 $white-color: #FFFFFF;
-// $light-blue-color: #93cce2; 
-.wrack {color: #93cce2}
-.rar {color: #a59d8e}
-
-/**/
-
-.text-primary-primary {
-  color: $primary-color;
-}
-.browse-text-dark {
-  color: $browse-dark-color;
-}
-.text-browse {
-  color: $browse-color;
-}
-.highlight-text-dark {
-  color: $highlight-dark-color;
-}
-.text-highlight {
-  color: $highlight-color;
-}
-.coolgray-text-dark {
-  color: $coolgray-dark-color;
-}
-.text-coolgray {
-  color: $coolgray-color;
-}
-.findus-text-dark {
-  color: $findus-dark-color;
-}
-.text-findus {
-  color: $findus-color;
-}
-.gethelp-text-dark {
-  color: $gethelp-dark-color;
-}
-.text-gethelp {
-  color: $gethelp-color;
-}
-.attend-text-dark {
-  color: $attend-dark-color;
-}
-.text-attend {
-  color: $attend-color;
-}
-.learn-text-dark {
-  color: $learn-dark-color;
-}
-.text-learn {
-  color: $learn-color;
-}
-.research-text-dark {
-  color: $research-dark-color;
-}
-.text-research {
-  color: $research-color;
-}
-.donate-text-dark {
-  color: $donate-dark-color;
-}
-.text-donate {
-  color: $donate-color;
-}
-.search-text-dark {
-  color: $search-dark-color;
-}
-.text-search {
-  color: $search-color;
-}
