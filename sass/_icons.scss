@@ -237,7 +237,7 @@ $gray2-color: #4b4b4b;
 //
 // Another thing is necessary to see...
 //
-// .nypl-icon-logo-mark - NYPL Lion logo icon 
+// .nypl-icon-logo-mark - NYPL Lion logo icon
 // .nypl-icon-logo-type - Logo Type
 // .nypl-icon-burger-nav - Burger Nav icon
 // .nypl-icon-circle-x - Circle X Closer icon
@@ -251,7 +251,7 @@ $gray2-color: #4b4b4b;
 // .nypl-icon-arrow-left - Arrow Left icon
 // .nypl-icon-circle-arrow-left - Circle Arrow left icon
 // .nypl-icon-arrow-right - Arrow Right icon
-// .nypl-icon-circle-arrow-right - Circle Arrow Right icon 
+// .nypl-icon-circle-arrow-right - Circle Arrow Right icon
 // .nypl-icon-wedge-right - Wedge icon right
 // .nypl-icon-circle-wedge-right - Circle wedge right
 // .nypl-icon-wedge-left - Wedge icon left
@@ -259,7 +259,7 @@ $gray2-color: #4b4b4b;
 // .nypl-icon-wedge-down - Wedge icon down
 // .nypl-icon-wedge-up - Wedge icon up
 // .nypl-icon-magnifier-thin - Magnifier icon thin
-// .nypl-icon-magnifier-fat - Magnifier icon fat 
+// .nypl-icon-magnifier-fat - Magnifier icon fat
 // .nypl-icon-magnifier-circle - Circle Magnifier icon
 // .nypl-icon-mail - Mail icon
 // .nypl-icon-book - Book icon
@@ -291,13 +291,13 @@ $gray2-color: #4b4b4b;
 // .nypl-icon-soundcloud - Soundcloud icon
 // .nypl-icon-file - File icon
 //
-// markup: 
+// markup:
 // <span class="lg-icon {$modifiers}"></span>
 //
 // Styleguide 3.6
 
 
-	
+
 [class^="nypl-icon-"], [class*=" nypl-icon-"] {
   font-family: 'nypl-moon';
   speak: none;
@@ -470,10 +470,8 @@ $gray2-color: #4b4b4b;
 }
 .nypl-icon-check-solo:before {
   content: "\e628";
-}	
+}
 
 .nypl-icon-file:before {
   content: "\e900";
-}	
-	
-	
+}
