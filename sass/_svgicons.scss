@@ -1,7 +1,9 @@
 @import "colors";
 .svgIcon {
   border: 1px dotted rgba(3,3,3,0.1);
-  margin: 16px;
+  padding: 16px;
+  -webkit-box-sizing: content-box;
+	box-sizing: content-box;;
 }
 
 .circleEmpty {
@@ -37,9 +39,6 @@
   .gray-bg {
     background-color: $footer-color;
     }
-
-
-
 
 // SVG Empty Circles
 //
@@ -96,8 +95,135 @@
 // </svg>
 // <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon">
 //  <title>circle.more.icon.svg</title>
+//  <!--
+//  the smaller versions use a different circle path
+//  in this case we use a "3px" wide path
+//  -->
+//  <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z"/>
+//  <!-- / 3px path -->
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon wht gray-bg">
+//  <title>circle.more.icon.svg</title>
 //  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
 //  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon wht gray-bg">
+//  <title>circle.more.icon.svg</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon wht gray-bg">
+//  <title>circle.more.icon.svg</title>
+//  <!--
+//  the smaller versions use a different circle path
+//  in this case we use a "3px" wide path
+//  -->
+//  <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z"/>
+//  <!-- / 3px path -->
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <br>
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon blue">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon blue">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon blue">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon blue-bg">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon blue-bg">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon blue-bg">
+//  <title>circle.more.icon.v1</title>
+//  <!--
+//  the smaller versions use a different circle path
+//  in this case we use a "3px" wide path
+//  -->
+//  <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z"/>
+//  <!-- / 3px path -->
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <br>
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon red">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon red">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon red">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon red-bg">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon red-bg">
+//  <title>circle.more.icon.v1</title>
+//  <path d="M16,2A14,14,0,1,1,2,16,14.0159,14.0159,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
+//  <circle cx="16" cy="16" r="1.9029" />
+//  <circle cx="24" cy="16" r="1.9029" />
+//  <circle cx="8" cy="16" r="1.9029" />
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon red-bg">
+//  <title>circle.more.icon.v1</title>
+//  <title>circle.empty.small.svg</title>
+//  <!--
+//  the smaller versions use a different circle path
+//  in this case we use a "3px" wide path
+//  -->
+//  <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z"/>
+//  <!-- / 3px path -->//  <circle cx="16" cy="16" r="1.9029" />
 //  <circle cx="24" cy="16" r="1.9029" />
 //  <circle cx="8" cy="16" r="1.9029" />
 // </svg>
