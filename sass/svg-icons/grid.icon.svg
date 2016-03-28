@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>grid.icon.svg</title>
+  <path d="M14,14H7V6h7v8ZM9,12h3V8H9v4Z"/>
+  <path d="M25,14H18V6h7v8Zm-5-2h3V8H20v4Z"/>
+  <path d="M14,25H7V17h7v8ZM9,23h3V19H9v4Z"/>
+  <path d="M25,25H18V17h7v8Zm-5-2h3V19H20v4Z"/>
+</svg>
