@@ -75,6 +75,7 @@ input[type="text"] {
 // Its critical that these fields are also accesible to all devices
 //
 // .label-drop-down - Sets the drop down's label.
+// <br>Modify the "Options" label to suit your needs.
 //
 // markup:
 //  <div class="field-item">
@@ -210,17 +211,15 @@ label[for=description] {
 // Standardized Radio Buttons w/ labels on the right and the left
 //
 // markup:
-// <form>
 // <div class="field-item">
 //   <input type="radio" name="value-one" value="first_value" checked><label for="value">First Value</label>
 // </div>
 // <div class="field-item">
-//   <input type="radio" name="value-two" value="second" checked><label for="value">Second Value</label>
+//   <input type="radio" name="value-two" value="second" ><label for="value">Second Value</label>
 // </div>
 // <div class="field-item">
-//   <input type="radio" name="value-three" value="third" checked><label for="value">Third Value</label>
+//   <input type="radio" name="value-three" value="third" ><label for="value">Third Value</label>
 // </div>
-// </form>
 //
 // Styleguide 7.6
 
@@ -228,3 +227,17 @@ label[for=value] {
  text-align: left;
  margin-left: 15px;
 }
+
+// Check Buttons
+//
+// markup:
+//  <div class="field-item">
+//    <input type="checkbox" name="vehicle1" value="Bike">
+//    <label for="value">I have a Bike</label>
+//  </div>
+//  <div class="field-item">
+//    <input type="checkbox" name="vehicle2" value="Car">
+//    <label for="value">I have a Car</label>
+//  </div>
+//
+// Styleguide 7.7
