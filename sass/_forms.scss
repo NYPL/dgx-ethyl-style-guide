@@ -11,6 +11,8 @@
 
 // Select
 //
+// An select dropdown without a label.
+//
 // markup:
 // <div class="select">
 //   <select>
@@ -135,6 +137,28 @@ input[type="text"] {
         }
     }
 
+
+        .drop-down,
+        input[type=text],
+        input[type=email],
+        textarea {
+          border:2px solid $form-gray-dark;
+          border-radius: 3px;
+          box-sizing: border-box;
+          display: inline-block;
+          height: 35px;
+          outline: none;
+          overflow: hidden;
+          padding: 0 5px;
+          width: 269px;
+        }
+
+        .drop-down {
+          background: url('../imgs/svg/down.wedge.sm.svg') 95% / 20% no-repeat transparent;
+          background-size: 12px 12px;
+          width: 121px;
+          }
+
 // Form Field with label
 //
 //  Find a field with a label and a "required" flag
@@ -147,26 +171,6 @@ input[type="text"] {
 //
 // Styleguide 7.4
 
-    .drop-down,
-    input[type=text],
-    input[type=email],
-    textarea {
-      border:2px solid $form-gray-dark;
-      border-radius: 3px;
-      box-sizing: border-box;
-      display: inline-block;
-      height: 35px;
-      outline: none;
-      overflow: hidden;
-      padding: 0 5px;
-      width: 269px;
-    }
-
-    .drop-down {
-      background: url('../imgs/svg/down.wedge.sm.svg') 95% / 20% no-repeat transparent;
-      background-size: 12px 12px;
-      width: 121px;
-      }
 
     input[type=text],
     input[type=email] {
@@ -175,13 +179,52 @@ input[type="text"] {
       padding-left: 13px;
     }
 
-    textarea {
-    font-family: 'Kievit-BookItalic';
-    height: 200px;
-    padding: 15px;
-    }
 
-    label[for=description] {
-      bottom: 97px;
-      position: relative;
-    }
+// Form Field Text Field
+//
+//  A standard input field.
+//
+// markup:
+// <div class="field-item">
+//   <label for="description">Description:</label>
+//   <textarea id="description" name="description" placeholder="Do some typing in this spacious field"></textarea>
+// </div>
+//
+// Styleguide 7.5
+
+textarea {
+font-family: 'Kievit-BookItalic';
+font-size: 100%;
+font-weight: normal;
+height: 200px;
+padding: 15px;
+}
+
+label[for=description] {
+  bottom: 97px;
+  position: relative;
+}
+
+// Radio Buttons
+//
+// Standardized Radio Buttons w/ labels on the right and the left
+//
+// markup:
+// <form>
+// <div class="field-item">
+//   <input type="radio" name="value-one" value="first_value" checked><label for="value">First Value</label>
+// </div>
+// <div class="field-item">
+//   <input type="radio" name="value-two" value="second" checked><label for="value">Second Value</label>
+// </div>
+// <div class="field-item">
+//   <input type="radio" name="value-three" value="third" checked><label for="value">Third Value</label>
+// </div>
+// </form>
+//
+// Styleguide 7.6
+
+label[for=value] {
+ text-align: left;
+ margin-left: 15px;
+}
