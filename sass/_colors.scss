@@ -175,15 +175,15 @@ $footer-color: #54514A;
 //
 // $black-color - black color.
 // $charcoal - slightly less black.
-// $white-color - white color.
 // $form-gray-dark - border color used in fieldsets and form elements
+// $white-color - white color.
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
 //
 // Styleguide 1.14
 
+$form-gray-dark: #665C52;
 $black-color: #000000;
 $charcoal: #333333;
 $white-color: #FFFFFF;
-$form-gray-dark: #665C52;
