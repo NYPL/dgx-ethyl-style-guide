@@ -42,8 +42,8 @@
     border: 2px solid $form-gray-dark;
     @include border-radius(3px);
     overflow: hidden;
-    background: url("../imgs/dropdown.png") 95% / 20% no-repeat transparent;
-    background-size: 6px 4px;
+    background: url("../imgs/svg/down.wedge.sm.svg") 95% / 20% no-repeat transparent;
+    background-size: 12px 12px;
     padding: 0 4px;
 }
 // Input
