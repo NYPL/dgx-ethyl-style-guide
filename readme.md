@@ -32,7 +32,7 @@ Use `gulp styleguide` instead of `gulp watch`.
 
 
 ### Current Version
-Version 0.0.4 
+Version 0.0.4   
 
 Version 0.0.3
 
