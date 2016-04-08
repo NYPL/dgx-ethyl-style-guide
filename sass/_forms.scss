@@ -1,0 +1,220 @@
+@import "colors";
+@import "fonts";
+@import "variables";
+@import "accessibility";
+
+/******** Dropdown / Input Field ********/
+
+// Select & Input
+//
+// Styleguide 7
+
+// Select
+//
+// An select dropdown without a label.
+//
+// markup:
+// <div class="select">
+//   <select>
+//     <option selected="">Search for All</option>
+//     <option>Option 1</option>
+//     <option>Option 2</option>
+//     <option>Option 3</option>
+//   </select>
+// </div>
+//
+// Styleguide 7.1
+.select select {
+    color: $form-gray-dark;
+    background: transparent;
+    border: 0;
+    font-family: 'Kievit-BookItalic', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 34px;
+    outline: none;
+    width: 214px;
+}
+.select {
+    outline: none;
+    height: 34px;
+    width: 198px;
+    border: 2px solid $form-gray-dark;
+    @include border-radius(3px);
+    overflow: hidden;
+    background: url("../imgs/svg/down.wedge.sm.svg") 95% / 20% no-repeat transparent;
+    background-size: 12px 12px;
+    padding: 0 4px;
+}
+// Input
+//
+// markup:
+//  <div class="field-item">
+//  <input type="text" placeholder="Enter Text">
+//  </div>
+//
+// Styleguide 7.2
+input[type=text] {
+    outline: none;
+    height: 34px;
+    width: 198px;
+    border: 2px solid $form-gray-dark;
+    @include border-radius(3px);
+    font-family: 'Kievit-BookItalic', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: $form-gray-dark;
+    padding: 1px 10px 0;
+}
+// Form Fields
+//
+// Its critical that these fields are also accesible to all devices
+//
+// .label-drop-down - Sets the drop down's label.
+// <br>Modify the "Options" label to suit your needs.
+//
+// markup:
+//  <div class="field-item">
+//   <label for="option" class="label-drop-down">Options</label>
+//   <div class="drop-down">
+//     <select>
+//       <option selected="">Select</option>
+//       <option>Option 1</option>
+//       <option>Option 2</option>
+//       <option>Option 3</option>
+//     </select>
+//    </div>
+//   </div>
+//
+// Styleguide 7.3
+.label-drop-down {
+    bottom: 13px;
+    font-family: 'Kievit-Bold';
+    position: relative;
+}
+.field-item {
+    display: block;
+    font-family: 'Kievit-Book', sans-serif;
+    margin: 15px 0;
+}
+.label-drop-down {
+    bottom: 13px;
+    font-family: 'Kievit-Bold';
+    position: relative;
+}
+select {
+    color: $form-gray-dark;
+    background: transparent;
+    border: 0;
+    font-family: 'Kievit-BookItalic';
+    font-size: 15px;
+    font-weight: normal;
+    height: 35px;
+    outline: none;
+    width: 125px;
+}
+label {
+    display: inline-block;
+    font-family: 'Kievit-Bold';
+    font-size: 13px;
+    margin-right: 29px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 122px;
+    span {
+        color: $primary-color;
+        padding-left: 3px;
+    }
+}
+.drop-down,
+input[type=email],
+input[type=text],
+textarea {
+    border: 2px solid $form-gray-dark;
+    @include border-radius(3px);
+    box-sizing: border-box;
+    display: inline-block;
+    height: 35px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 269px;
+}
+.drop-down {
+    background: url('../imgs/svg/down.wedge.sm.svg') 95% / 20% no-repeat transparent;
+    background-size: 12px 12px;
+    width: 121px;
+}
+// Form Field with label
+//
+//  Find a field with a label and a "required" flag
+//
+// markup:
+//  <div class="field-item">
+//    <label for="name">Name<span>*</span></label>
+//    <input type="text" id="name" name="name" placeholder="Enter your full name" />
+//  </div>
+//
+// Styleguide 7.4
+input[type=email],
+input[type=text] {
+    font-family: 'Kievit-BookItalic';
+    padding-top: 3px;
+    padding-left: 13px;
+}
+// Form Field Text Field
+//
+//  A standard input field.
+//
+// markup:
+// <div class="field-item">
+//   <label for="description">Description:</label>
+//   <textarea id="description" name="description" placeholder="Do some typing in this spacious field"></textarea>
+// </div>
+//
+// Styleguide 7.5
+textarea {
+    font-family: 'Kievit-BookItalic';
+    font-size: 100%;
+    font-weight: normal;
+    height: 200px;
+    padding: 15px;
+}
+label[for=description] {
+    bottom: 97px;
+    position: relative;
+}
+// Radio Buttons
+//
+// Standardized Radio Buttons w/ labels on the right and the left
+//
+// markup:
+// <div class="field-item">
+//   <input type="radio" name="value-one" value="first_value" checked><label for="value-one">First Value</label>
+// </div>
+// <div class="field-item">
+//   <input type="radio" name="value-two" value="second_value" ><label for="value-two">Second Value</label>
+// </div>
+// <div class="field-item">
+//   <input type="radio" name="value-three" value="third" ><label for="value-three">Third Value</label>
+// </div>
+//
+// Styleguide 7.6
+input[type=checkbox] + label,
+input[type=radio] + label {
+    text-align: left;
+    margin-left: 15px;
+}
+// Check Buttons
+//
+// markup:
+//  <div class="field-item">
+//    <input type="checkbox" name="vehicle1" value="Bike">
+//    <label for="vehicle1">I have a Bike</label>
+//  </div>
+//  <div class="field-item">
+//    <input type="checkbox" name="vehicle2" value="Car">
+//    <label for="vehicle2">I have a Car</label>
+//  </div>
+//
+// Styleguide 7.7
