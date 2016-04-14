@@ -497,6 +497,8 @@
 
 // Audio / Headphone Icon
 //
+//  <b>Note: Please do not wrap this icon in a circle, it probably won't look good.</b>
+//
 //markup:
 // <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
 //   <title>audio.icon</title>
@@ -533,6 +535,9 @@
 
 // Media / Blue Ray Disc
 //
+//  <b>Note: Please do not wrap this icon in a circle, it probably won't look good.</b>
+//
+//markup:
 // <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
 //   <title>blue.ray.icon</title>
 //   <path d="M12.25,16a3.738,3.738,0,0,0,1.09839,2.65161l5.30328-5.30328A3.75,3.75,0,0,0,12.25,16Z" fill="none"/>
@@ -553,3 +558,48 @@
 // </svg>
 //
 // Styleguide 3.23
+
+// Audio Disc Icon
+//
+//  <b>Note: Please do not wrap this icon in a circle, it probably won't look good.</b>
+//
+// markup:
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
+//   <title>audio.disc.icon</title>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625ZM16,19.75A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
+//   <title>audio.disc.icon</title>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625ZM16,19.75A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon">
+//   <title>audio.disc.icon</title>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625ZM16,19.75A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+// </svg>
+//
+// Styleguide 3.24
+
+// DVD Disc Icon
+//
+// markup:
+// <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
+//   <title>dvd.icon.svg</title>
+//   <circle cx="16" cy="16" r="3.75" fill="none"/>
+//   <path d="M16,10.625A5.375,5.375,0,1,0,21.375,16,5.381,5.381,0,0,0,16,10.625Zm0,9.125A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625Zm0,19.65625A7.71875,7.71875,0,1,1,23.71875,16,7.72719,7.72719,0,0,1,16,23.71875Z"/>
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
+//   <title>dvd.icon.svg</title>
+//   <circle cx="16" cy="16" r="3.75" fill="none"/>
+//   <path d="M16,10.625A5.375,5.375,0,1,0,21.375,16,5.381,5.381,0,0,0,16,10.625Zm0,9.125A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625Zm0,19.65625A7.71875,7.71875,0,1,1,23.71875,16,7.72719,7.72719,0,0,1,16,23.71875Z"/>
+// </svg>
+// <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" class="svgIcon">
+//   <title>dvd.icon.svg</title>
+//   <circle cx="16" cy="16" r="3.75" fill="none"/>
+//   <path d="M16,10.625A5.375,5.375,0,1,0,21.375,16,5.381,5.381,0,0,0,16,10.625Zm0,9.125A3.75,3.75,0,1,1,19.75,16,3.75,3.75,0,0,1,16,19.75Z"/>
+//   <path d="M16,4.0625A11.9375,11.9375,0,1,0,27.9375,16,11.9375,11.9375,0,0,0,16,4.0625Zm0,19.65625A7.71875,7.71875,0,1,1,23.71875,16,7.72719,7.72719,0,0,1,16,23.71875Z"/>
+// </svg>
+
+//
+// Styleguide 3.25
