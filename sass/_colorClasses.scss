@@ -7,8 +7,8 @@
 // .text-browse - $browse-color.
 // .highlight-text-dark - $highlight-dark-color.
 // .text-highlight - $highlight-color.
-// .warmgray-text-dark - $warm-gray-dark-color.
-// .text-warmgray - $warm-gray-color.
+// .warmgray-text-dark - $gray-dark-color.
+// .text-warmgray - $gray-color.
 // .findus-text-dark - $findus-dark-color.
 // .text-findus - $findus-color.
 // .gethelp-text-dark - $gethelp-dark-color.
@@ -45,10 +45,10 @@
   color: $highlight-color;
 }
 .warmgray-text-dark {
-  color: $warm-gray-dark-color;
+  color: $gray-dark-color;
 }
 .text-warmgray {
-  color: $warm-gray-color;
+  color: $gray-color;
 }
 .findus-text-dark {
   color: $findus-dark-color;
