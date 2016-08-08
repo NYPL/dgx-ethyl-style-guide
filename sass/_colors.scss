@@ -21,6 +21,7 @@ $primary-color: #EC1818;
 // Secondary UI Color
 //
 // $secondary-color - secondary user interface color.
+// $secondary-dark-color - dark UI color
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
@@ -28,6 +29,7 @@ $primary-color: #EC1818;
 // Styleguide 1.2
 
 $secondary-color: #1B7FA7;
+$secondary-dark-color: #135772;
 
 // Highlight Colors
 //
@@ -130,8 +132,8 @@ $findus-color: #726958;
 //
 // Styleguide 1.10
 
-$gethelp-dark-color: #655C4C;
-$gethelp-color: #89806F;
+$gethelp-color: $findus-color;
+$gethelp-dark-color: $findus-dark-color;
 
 // Donate Colors
 //
