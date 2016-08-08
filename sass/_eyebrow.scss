@@ -179,7 +179,7 @@ $gray4-c: #666;
 .mega-nav,
 .sub-menu {
   font-family: 'Kievit-Medium', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   width: 134px; // ?
 
   ul {
@@ -205,19 +205,19 @@ $gray4-c: #666;
 }
 
 .mega-nav {
-  color: $gray3-c;
+  color: $charcoal;
   ul li a {
-    color: $gray3-c;
+    color: $charcoal;
   }
 }
 
 .sub-menu {
-  color: $black-color;
+  color: $gray-color;
   text-align: right;
   ul li a {
-    color: $black-color;
+    color: $gray-color;
   }
   .title {
-    border-color: $gray4-c;
+    border-color: $gray-color;
   }
 }
