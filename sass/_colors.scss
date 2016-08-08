@@ -16,7 +16,7 @@
 //
 // Styleguide 1.1
 
-$primary-color: #EC1818;
+$primary-color: #E32B31;
 
 // Secondary UI Color
 //
@@ -68,7 +68,7 @@ $gray-color: #7B756F;
 // Styleguide 1.5
 
 $browse-dark-color: #BB1D12;
-$browse-color: #E73621;
+$browse-color: #E62E19;
 
 // Attend Colors
 //
@@ -145,8 +145,8 @@ $gethelp-dark-color: $findus-dark-color;
 //
 // Styleguide 1.11
 
-$donate-dark-color: #9E0B0B;
-$donate-color: #CF1D1E;
+$donate-dark-color: $browse-dark-color;
+$donate-color: $browse-color;
 
 // Search Colors
 //
