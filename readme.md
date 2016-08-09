@@ -2,6 +2,8 @@
 > This document represents our ongoing efforts to stnandardize basic design patterns used across nypl.org.
 
 ## Current Version
+Version 0.0.6
+
 Version 0.0.5
 
 Version 0.0.4   
