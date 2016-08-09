@@ -3,7 +3,7 @@
 
 // Color Palette
 //
-// This section describes base colors and typography
+// This section describes base colors
 //
 // Styleguide 1.0
 
@@ -16,18 +16,20 @@
 //
 // Styleguide 1.1
 
-$primary-color: #ED1C24;
+$primary-color: #E32B31;
 
 // Secondary UI Color
 //
 // $secondary-color - secondary user interface color.
+// $secondary-dark-color - dark UI color
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
 //
 // Styleguide 1.2
 
-$secondary-color: #2799C5;
+$secondary-color: #1B7FA7;
+$secondary-dark-color: #135772;
 
 // Highlight Colors
 //
@@ -42,18 +44,18 @@ $secondary-color: #2799C5;
 $highlight-dark-color: #FEE24A;
 $highlight-color: #FFF0A1;
 
-// Grays (Cool)
+// Grays (Warm)
 //
-// $coolgray-dark-color - coolgray dark color.
-// $coolgray-color - coolgray color.
+// $gray-dark-color - a warmer dark-gray color.
+// $gray-color - warmer gray color.
 //
 // markup:
 // <div style="background: {$modifiers};" class="styleguide-color">{$modifiers}</div>
 //
 // Styleguide 1.4
 
-$coolgray-dark-color: #837E77;
-$coolgray-color: #A3A19E;
+$gray-dark-color: #5F5B54;
+$gray-color: #7B756F;
 
 // Browse Colors
 //
@@ -66,7 +68,7 @@ $coolgray-color: #A3A19E;
 // Styleguide 1.5
 
 $browse-dark-color: #BB1D12;
-$browse-color: #E73621;
+$browse-color: #E62E19;
 
 // Attend Colors
 //
@@ -91,8 +93,8 @@ $attend-color: #72256D;
 //
 // Styleguide 1.7
 
-$learn-dark-color: #437529;
-$learn-color: #579B34;
+$learn-dark-color: #4C842E;
+$learn-color: #579E33;
 
 // Research Colors
 //
@@ -105,7 +107,7 @@ $learn-color: #579B34;
 // Styleguide 1.8
 
 $research-dark-color: #047074;
-$research-color: #00989E;
+$research-color: #07818D;
 
 // Find Us Colors
 //
@@ -130,8 +132,8 @@ $findus-color: #726958;
 //
 // Styleguide 1.10
 
-$gethelp-dark-color: #655C4C;
-$gethelp-color: #89806F;
+$gethelp-color: $findus-color;
+$gethelp-dark-color: $findus-dark-color;
 
 // Donate Colors
 //
@@ -143,8 +145,8 @@ $gethelp-color: #89806F;
 //
 // Styleguide 1.11
 
-$donate-dark-color: #9E0B0B;
-$donate-color: #CF1D1E;
+$donate-dark-color: $browse-dark-color;
+$donate-color: $browse-color;
 
 // Search Colors
 //

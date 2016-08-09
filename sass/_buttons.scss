@@ -243,14 +243,14 @@
 
 /******** More Buttons ********/
 .btn-more {
-  border: solid 2px $coolgray-color;
+  border: solid 2px $gray-color;
   @include border-radius(13px);
   height: 26px;
   min-width: 26px;
   background: url(../imgs/ellipsis.png) no-repeat transparent;
   font-family: 'Kievit-Medium', sans-serif;
   font-weight: 500;
-  color: $coolgray-color;
+  color: $gray-color;
   font-size: 11px;
   text-transform: uppercase;
   outline: none;
