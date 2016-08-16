@@ -171,8 +171,6 @@ aside.milo {
   }
 }
 
-
-
 /******** Blog Quote ********/
 .blog--quote {
   h1 {
@@ -192,10 +190,6 @@ aside.milo {
     width: 66px;
   }
 }
-
-
-
-
 
 /******** Blog Listing ********/
 .blog--listing {
@@ -300,6 +294,7 @@ aside.milo {
     margin-bottom: 15px;
 
     .blog-text-link {
+      background-color: $white-color;
 	    color:$secondary-color;
 	    }/* /blog-text-link  */
 

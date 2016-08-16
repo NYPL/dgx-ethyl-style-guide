@@ -2,17 +2,7 @@
 > This document represents our ongoing efforts to stnandardize basic design patterns used across nypl.org.
 
 ## Current Version
-Version 0.0.6
-
-Version 0.0.5
-
-Version 0.0.4   
-
-Version 0.0.3
-
-Version 0.0.2
-
-Version 0.0.1
+Version 0.0.7
 
 ## Installing Locally
 
