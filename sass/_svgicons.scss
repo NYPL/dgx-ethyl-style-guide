@@ -1127,29 +1127,88 @@
 // Radio Button (Active)
 //
 // markup:
-// <svg width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
-//   <title>radioButton.active.icon</title>
-//   <path d="M16,4A12,12,0,1,1,4,16,12.01358,12.01358,0,0,1,16,4m0-4A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"/>
-//   <circle cx="16" cy="15.94029" r="8.02846"/>
-// </svg>
-// <svg width="16" height="16" viewBox="0 0 32 32" class="svgIcon">
-//   <title>radioButton.active.icon</title>
-//   <path d="M16,4A12,12,0,1,1,4,16,12.01358,12.01358,0,0,1,16,4m0-4A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"/>
-//   <circle cx="16" cy="15.94029" r="8.02846"/>
+// <svg width="16" height="16" viewBox="0 0 16 16">
+//   <title>radioButton.icon.active</title>
+//   <path d="M7.96875,4.64844A3.32031,3.32031,0,1,1,4.64844,7.96875,3.32407,3.32407,0,0,1,7.96875,4.64844M7.96875,0A7.96875,7.96875,0,1,0,15.9375,7.96875,7.96875,7.96875,0,0,0,7.96875,0Z"/>
 // </svg>
 //
-// Styleguide 3.29.1
+// Styleguide 3.29
 
 // Radio Button (In-Active)
 //
 // markup:
-// <svg width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
-//   <title>radioButton.inactive.icon</title>
-//   <path d="M16,4A12,12,0,1,1,4,16,12.01358,12.01358,0,0,1,16,4m0-4A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"/>
-// </svg>
-// <svg width="16" height="16" viewBox="0 0 32 32" class="svgIcon">
-//   <title>radioButton.inactive.icon</title>
-//   <path d="M16,4A12,12,0,1,1,4,16,12.01358,12.01358,0,0,1,16,4m0-4A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"/>
+// <svg width="16" height="16" viewBox="0 0 16 16">
+//   <title>radioButton.icon.inactive</title>
+//   <path d="M7.96875,1A6.96875,6.96875,0,1,1,1,7.96875,6.97663,6.97663,0,0,1,7.96875,1m0-1A7.96875,7.96875,0,1,0,15.9375,7.96875,7.96873,7.96873,0,0,0,7.96875,0Z"/>
 // </svg>
 //
-// Styleguide 3.29.2
+// Styleguide 3.29.1
+
+// Log Out Icon
+//
+// markup:
+// <svg width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
+//   <title>logout.icon</title>
+//   <g>
+//     <path d="M23.084,9.91992a1.49987,1.49987,0,1,0-2.168,2.07324L23.79181,15H11a1.5,1.5,0,0,0,0,3H23.877L20.8291,21.30273a1.50035,1.50035,0,0,0,2.20508,2.03516l6.3252-6.85645Z" />
+//     <path d="M15.97949,25H7V7h9.21875a1.5,1.5,0,0,0,0-3H4V28H15.97949a1.5,1.5,0,0,0,0-3Z" />
+//   </g>
+// </svg>
+// <svg width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
+//   <title>logout.icon</title>
+//   <g>
+//     <path d="M23.084,9.91992a1.49987,1.49987,0,1,0-2.168,2.07324L23.79181,15H11a1.5,1.5,0,0,0,0,3H23.877L20.8291,21.30273a1.50035,1.50035,0,0,0,2.20508,2.03516l6.3252-6.85645Z" />
+//     <path d="M15.97949,25H7V7h9.21875a1.5,1.5,0,0,0,0-3H4V28H15.97949a1.5,1.5,0,0,0,0-3Z" />
+//   </g>
+// </svg>
+// <svg width="16" height="16" viewBox="0 0 32 32" class="svgIcon">
+//   <title>logout.icon</title>
+//   <g>
+//     <path d="M23.084,9.91992a1.49987,1.49987,0,1,0-2.168,2.07324L23.79181,15H11a1.5,1.5,0,0,0,0,3H23.877L20.8291,21.30273a1.50035,1.50035,0,0,0,2.20508,2.03516l6.3252-6.85645Z" />
+//     <path d="M15.97949,25H7V7h9.21875a1.5,1.5,0,0,0,0-3H4V28H15.97949a1.5,1.5,0,0,0,0-3Z" />
+//   </g>
+// </svg>
+//
+// Styleguide 3.30
+
+// Building Icon (Used as the login to classic catalog icon)
+//
+// markup:
+// <svg width="48" height="48" viewBox="0 0 32 32" class="svgIcon">
+//   <title>bldg.icon.svg</title>
+//   <polygon points="8 10 16 7 24 10 28 10 16 5 4 10 8 10" />
+//   <polygon points="28 25 26 25 26 16 27 16 27 14 24 14 24 16 24 25 8 25 8 16 8 14 5 14 5 16 6 16 6 25 4 25 4 27 28 27 28 25" />
+//   <rect x="5" y="11" width="22" height="2" />
+//   <rect x="10" y="15" width="2" height="9" />
+//   <rect x="20" y="15" width="2" height="9" />
+//   <rect x="15" y="15" width="2" height="9" />
+// </svg>
+// <svg width="32" height="32" viewBox="0 0 32 32" class="svgIcon">
+//   <title>bldg.icon.svg</title>
+//   <polygon points="8 10 16 7 24 10 28 10 16 5 4 10 8 10" />
+//   <polygon points="28 25 26 25 26 16 27 16 27 14 24 14 24 16 24 25 8 25 8 16 8 14 5 14 5 16 6 16 6 25 4 25 4 27 28 27 28 25" />
+//   <rect x="5" y="11" width="22" height="2" />
+//   <rect x="10" y="15" width="2" height="9" />
+//   <rect x="20" y="15" width="2" height="9" />
+//   <rect x="15" y="15" width="2" height="9" />
+// </svg>
+// <svg width="24" height="24" viewBox="0 0 32 32" class="svgIcon">
+//   <title>bldg.icon.svg</title>
+//   <polygon points="8 10 16 7 24 10 28 10 16 5 4 10 8 10" />
+//   <polygon points="28 25 26 25 26 16 27 16 27 14 24 14 24 16 24 25 8 25 8 16 8 14 5 14 5 16 6 16 6 25 4 25 4 27 28 27 28 25" />
+//   <rect x="5" y="11" width="22" height="2" />
+//   <rect x="10" y="15" width="2" height="9" />
+//   <rect x="20" y="15" width="2" height="9" />
+//   <rect x="15" y="15" width="2" height="9" />
+// </svg>
+// <svg width="16" height="16" viewBox="0 0 32 32" class="svgIcon">
+//   <title>bldg.icon.svg</title>
+//   <polygon points="8 10 16 7 24 10 28 10 16 5 4 10 8 10" />
+//   <polygon points="28 25 26 25 26 16 27 16 27 14 24 14 24 16 24 25 8 25 8 16 8 14 5 14 5 16 6 16 6 25 4 25 4 27 28 27 28 25" />
+//   <rect x="5" y="11" width="22" height="2" />
+//   <rect x="10" y="15" width="2" height="9" />
+//   <rect x="20" y="15" width="2" height="9" />
+//   <rect x="15" y="15" width="2" height="9" />
+// </svg>
+//
+// Styleguide 3.31
