@@ -1,0 +1,22 @@
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow; // Chrome 4.0 to 9.0, Safari 3.1 to 5.0, Mobile Safari 3.2 to 4.3, Android Browser 2.1 to 3.0
+       -moz-box-shadow: $shadow; // Firefox 3.5 to 3.6
+            box-shadow: $shadow;
+  }
+
+@mixin basic-focus {
+        background-color: $white-color;
+        box-shadow: 1px 1px 1px 1px $focus-color;
+        outline-color: $focus-color;
+        outline-style: solid;
+        outline-width: $focus-width;
+}
+
+//
+// Styles the focus for form elements
+// 
+@mixin input-focus{
+    @include box-shadow(inset 0 0 0 $focus-width $focus-color);
+    background-color: darken($white-color, 5%);
+    outline: none;
+  }

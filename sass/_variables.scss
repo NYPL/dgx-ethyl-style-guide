@@ -1,5 +1,17 @@
+@import "colors";
 // grid variables
 $grid-columns: 12;
 
+
 // Focus border width:
 $focus-width: 0.125em;
+
+@each $tag in a, input, select, button, textarea {
+
+    #{$tag}:focus {
+      box-shadow: 1px 1px 1px 1px $focus-color;
+      outline-color: $focus-color;
+      outline-style: solid;
+      outline-width: $focus-width;
+    }
+  }
