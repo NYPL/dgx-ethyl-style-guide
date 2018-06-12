@@ -2,7 +2,7 @@
 > This document represents our ongoing efforts to standardize basic design patterns used across nypl.org.
 
 ## Current Version
-Version 0.0.8
+Version 0.0.9
 
 ## Installing Locally
 
