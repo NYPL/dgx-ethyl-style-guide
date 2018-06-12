@@ -31,7 +31,7 @@ $primary-color: #E32B31;
 
 $nypl-blue: #1b7fa7;
 $nypl-blue-dark: #135772;
-$nypl-light-blue: lighten($nypl-blue, 30%);
+$nypl-light-blue:  #73c7e8;
 $secondary-color: $nypl-blue;
 $secondary-dark-color: $nypl-blue-dark;
 $secondary-light-color: $nypl-light-blue;
@@ -183,7 +183,7 @@ $footer-color: #54514A;
 // $black-color - black color.
 // $charcoal - slightly less black.
 // $form-gray-dark - border color used in fieldsets and form elements
-// $nypl-white -  aka: $white-color.
+// $white-color - aka: .$nypl-white
 // $focus-color - high contrast dark blue for focus rings 
 //
 // markup:
@@ -196,4 +196,4 @@ $black-color: #000000;
 $charcoal: #333333;
 $nypl-white: #fff;
 $white-color: $nypl-white;
-$focus-color: darken($nypl-blue-dark, 5%);
+$focus-color: #0f465c;
