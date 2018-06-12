@@ -1,6 +1,7 @@
 @import "colors";
 @import "fonts";
 @import "variables";
+@import "mixins";
 @import "accessibility";
 
 /******** Dropdown / Input Field ********/
@@ -34,6 +35,10 @@
     height: 34px;
     outline: none;
     width: 214px;
+
+    &:focus {
+        @include input-focus;
+    }
 }
 .select {
     outline: none;
@@ -65,6 +70,10 @@ input[type=text] {
     font-style: italic;
     color: $form-gray-dark;
     padding: 1px 10px 0;
+
+    &:focus {
+        @include input-focus;
+    }
 }
 // Form Fields
 //
@@ -112,7 +121,12 @@ select {
     height: 35px;
     outline: none;
     width: 125px;
+
+    &:focus {
+        @include input-focus;
+    }
 }
+
 label {
     display: inline-block;
     font-family: 'Kievit-Bold';
@@ -121,6 +135,7 @@ label {
     text-align: right;
     text-transform: uppercase;
     width: 122px;
+
     span {
         color: $primary-color;
         padding-left: 3px;
@@ -139,6 +154,10 @@ textarea {
     overflow: hidden;
     padding: 0 5px;
     width: 269px;
+
+    &:focus {
+        @include input-focus;
+    }
 }
 .drop-down {
     background: url('../imgs/svg/down.wedge.sm.svg') 95% / 20% no-repeat transparent;

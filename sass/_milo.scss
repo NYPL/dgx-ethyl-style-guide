@@ -295,7 +295,14 @@ aside.milo {
 
     .blog-text-link {
       background-color: $white-color;
-	    color:$secondary-color;
+      color:$secondary-color;
+      
+      &:focus {
+        background-color: $white-color;
+        outline: $focus-color;
+        outline-style: solid;
+        outline-width: $focus-width;
+        }
 	    }/* /blog-text-link  */
 
 	.citation {
